@@ -1,0 +1,60 @@
+[root@83b75d45c5c9 /]# qperf -t 60 -v 172.31.24.95 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency        =   163 us
+    msg_rate       =  6.13 K/sec
+    time           =    60 sec
+    loc_cpus_used  =   1.9 % cpus
+    rem_cpus_used  =  2.25 % cpus
+tcp_bw:
+    bw              =    59 MB/sec
+    msg_rate        =   900 /sec
+    time            =    60 sec
+    send_cost       =   562 ms/GB
+    recv_cost       =   865 ms/GB
+    send_cpus_used  =  3.32 % cpus
+    recv_cpus_used  =   5.1 % cpus
+udp_lat:
+    latency        =  1.42 ms
+    msg_rate       =   702 /sec
+    time           =    60 sec
+    loc_cpus_used  =  0.18 % cpus
+    rem_cpus_used  =   0.3 % cpus
+udp_bw:
+    send_bw         =  6.65 GB/sec
+    recv_bw         =  39.7 MB/sec
+    msg_rate        =  1.21 K/sec
+    time            =    60 sec
+    send_cost       =   150 ms/GB
+    recv_cost       =   382 ms/GB
+    send_cpus_used  =   100 % cpus
+    recv_cpus_used  =  1.52 % cpus
+[root@83b75d45c5c9 /]# qperf -t 60 -v 172.31.24.95 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency        =   159 us
+    msg_rate       =  6.29 K/sec
+    time           =    60 sec
+    loc_cpus_used  =  1.78 % cpus
+    rem_cpus_used  =  1.68 % cpus
+tcp_bw:
+    bw              =  33.2 MB/sec
+    msg_rate        =   506 /sec
+    time            =    60 sec
+    send_cost       =  1.57 sec/GB
+    recv_cost       =  2.02 sec/GB
+    send_cpus_used  =  5.22 % cpus
+    recv_cpus_used  =  6.72 % cpus
+udp_lat:
+    latency        =   1.5 ms
+    msg_rate       =   668 /sec
+    time           =    60 sec
+    loc_cpus_used  =  0.17 % cpus
+    rem_cpus_used  =  0.25 % cpus
+udp_bw:
+    send_bw         =  6.66 GB/sec
+    recv_bw         =  3.96 MB/sec
+    msg_rate        =   121 /sec
+    time            =    60 sec
+    send_cost       =   150 ms/GB
+    recv_cost       =   506 ms/GB
+    send_cpus_used  =   100 % cpus
+    recv_cpus_used  =   0.2 % cpus

@@ -1,0 +1,73 @@
+ubuntu@ip-172-31-16-201:~$ ping 172.31.24.95
+PING 172.31.24.95 (172.31.24.95) 56(84) bytes of data.
+64 bytes from 172.31.24.95: icmp_seq=1 ttl=64 time=0.596 ms
+64 bytes from 172.31.24.95: icmp_seq=2 ttl=64 time=0.420 ms
+64 bytes from 172.31.24.95: icmp_seq=3 ttl=64 time=0.393 ms
+64 bytes from 172.31.24.95: icmp_seq=4 ttl=64 time=0.397 ms
+^C
+--- 172.31.24.95 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 2997ms
+rtt min/avg/max/mdev = 0.393/0.451/0.596/0.086 ms
+ubuntu@ip-172-31-16-201:~$ qperf-0.4.9/src/qperf -v 172.31.24.95 tcp_lat
+tcp_lat:
+    latency        =   158 us
+    msg_rate       =  6.32 K/sec
+    loc_cpus_used  =     1 % cpus
+    rem_cpus_used  =  1.49 % cpus
+ubuntu@ip-172-31-16-201:~$ qperf-0.4.9/src/qperf -v 172.31.24.95 tcp_lat tcp_bw
+tcp_lat:
+    latency        =   148 us
+    msg_rate       =  6.75 K/sec
+    loc_cpus_used  =     1 % cpus
+    rem_cpus_used  =     1 % cpus
+tcp_bw:
+    bw              =   123 MB/sec
+    msg_rate        =  1.87 K/sec
+    send_cost       =   121 ms/GB
+    recv_cost       =   245 ms/GB
+    send_cpus_used  =   1.5 % cpus
+    recv_cpus_used  =     3 % cpus
+ubuntu@ip-172-31-16-201:~$ qperf-0.4.9/src/qperf -v 172.31.24.95 udp_lat udp_bw
+udp_lat:
+    latency        =   166 us
+    msg_rate       =  6.02 K/sec
+    loc_cpus_used  =     1 % cpus
+    rem_cpus_used  =   0.5 % cpus
+udp_bw:
+    send_bw         =   315 MB/sec
+    recv_bw         =  9.06 MB/sec
+    msg_rate        =   276 /sec
+    send_cost       =  47.6 ms/GB
+    recv_cost       =   552 ms/GB
+    send_cpus_used  =   1.5 % cpus
+    recv_cpus_used  =   0.5 % cpus
+ubuntu@ip-172-31-16-201:~$ qperf-0.4.9/src/qperf -t 60 -v 172.31.24.95 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency        =   163 us
+    msg_rate       =  6.12 K/sec
+    time           =    60 sec
+    loc_cpus_used  =  2.03 % cpus
+    rem_cpus_used  =  1.43 % cpus
+tcp_bw:
+    bw              =   119 MB/sec
+    msg_rate        =  1.82 K/sec
+    time            =    60 sec
+    send_cost       =   217 ms/GB
+    recv_cost       =   276 ms/GB
+    send_cpus_used  =  2.58 % cpus
+    recv_cpus_used  =  3.28 % cpus
+udp_lat:
+    latency        =   371 us
+    msg_rate       =   2.7 K/sec
+    time           =    60 sec
+    loc_cpus_used  =  0.55 % cpus
+    rem_cpus_used  =  0.52 % cpus
+udp_bw:
+    send_bw         =   379 MB/sec
+    recv_bw         =  1.22 MB/sec
+    msg_rate        =  37.4 /sec
+    time            =    60 sec
+    send_cost       =  54.1 ms/GB
+    recv_cost       =  5.85 sec/GB
+    send_cpus_used  =  2.05 % cpus
+    recv_cpus_used  =  0.72 % cpus
