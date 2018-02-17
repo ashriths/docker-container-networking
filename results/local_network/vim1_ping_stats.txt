@@ -1,0 +1,16 @@
+asheshan@c10-35:~/docker-container-networking/scripts/qperf-0.4.9$ ping -c 10 169.228.66.59
+PING 169.228.66.59 (169.228.66.59) 56(84) bytes of data.
+64 bytes from 169.228.66.59: icmp_seq=1 ttl=64 time=0.136 ms
+64 bytes from 169.228.66.59: icmp_seq=2 ttl=64 time=0.099 ms
+64 bytes from 169.228.66.59: icmp_seq=3 ttl=64 time=0.096 ms
+64 bytes from 169.228.66.59: icmp_seq=4 ttl=64 time=0.095 ms
+64 bytes from 169.228.66.59: icmp_seq=5 ttl=64 time=0.095 ms
+64 bytes from 169.228.66.59: icmp_seq=6 ttl=64 time=0.097 ms
+64 bytes from 169.228.66.59: icmp_seq=7 ttl=64 time=0.095 ms
+64 bytes from 169.228.66.59: icmp_seq=8 ttl=64 time=0.096 ms
+64 bytes from 169.228.66.59: icmp_seq=9 ttl=64 time=0.095 ms
+64 bytes from 169.228.66.59: icmp_seq=10 ttl=64 time=0.095 ms
+
+--- 169.228.66.59 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 8999ms
+rtt min/avg/max/mdev = 0.095/0.099/0.136/0.018 ms
