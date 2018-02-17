@@ -1,3 +1,4 @@
+set -ex
 sudo apt-get remove docker docker-engine docker.io
 sudo apt-get update
 sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
@@ -10,3 +11,4 @@ sudo apt-get update
 sudo apt-get install docker-ce
 apt-cache madison docker-ce
 sudo docker run hello-world
+set +ex
