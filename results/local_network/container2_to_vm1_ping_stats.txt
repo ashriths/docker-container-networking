@@ -1,0 +1,15 @@
+root@2befcb6cc1d1:/qperf-0.4.9# ping -c 10 169.228.66.58
+PING 169.228.66.58 (169.228.66.58): 56 data bytes
+64 bytes from 169.228.66.58: icmp_seq=0 ttl=63 time=0.224 ms
+64 bytes from 169.228.66.58: icmp_seq=1 ttl=63 time=0.145 ms
+64 bytes from 169.228.66.58: icmp_seq=2 ttl=63 time=0.137 ms
+64 bytes from 169.228.66.58: icmp_seq=3 ttl=63 time=0.149 ms
+64 bytes from 169.228.66.58: icmp_seq=4 ttl=63 time=0.135 ms
+64 bytes from 169.228.66.58: icmp_seq=5 ttl=63 time=0.140 ms
+64 bytes from 169.228.66.58: icmp_seq=6 ttl=63 time=0.130 ms
+64 bytes from 169.228.66.58: icmp_seq=7 ttl=63 time=0.129 ms
+64 bytes from 169.228.66.58: icmp_seq=8 ttl=63 time=0.123 ms
+64 bytes from 169.228.66.58: icmp_seq=9 ttl=63 time=0.129 ms
+--- 169.228.66.58 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 0.123/0.144/0.224/0.028 ms

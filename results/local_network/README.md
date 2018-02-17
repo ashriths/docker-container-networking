@@ -10,5 +10,25 @@ Two virtual machines connected in a local network (UCSD provided network)
 - [VM2 Specs](ucsd_vm2_specs.txt)
 
 ### Preliminary tests
+
+#### Ping Tests
+
+Scenario        | RTT avg  | RTT min | RTT max | RTT STD
+----------------|----------|---------|-------- |---------
+VM to VM        | 0.095 ms | 0.099 ms| 0.136 ms| 0.018 ms
+Container to VM | 0.123 ms | 0.144 ms| 0.224 ms| 0.028 ms
+
+##### Raw Results
 - [VM1 to VM2 pings stats](vm1_ping_stats.txt)
 - [VM2 to VM1 pings stats](vm2_ping_stats.txt)
+
+#### Number of Hops (traceroute)
+
+Scenario        |# of hops
+----------------|---------
+VM to VM        |1    
+Container to VM |2
+
+##### Raw Results
+- [VM to VM traceroute](vm1_traceroute.txt)
+- [Conteinar to VM tracerout](container2_to_vm1_traceroute.txt)

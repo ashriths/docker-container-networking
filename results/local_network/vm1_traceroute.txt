@@ -1,0 +1,5 @@
+asheshan@c10-36:~$ tracepath 169.228.66.58
+ 1?: [LOCALHOST]                                         pmtu 1500
+ 1:  c10-35.sysnet.ucsd.edu                                0.190ms reached
+ 1:  c10-35.sysnet.ucsd.edu                                0.166ms reached
+     Resume: pmtu 1500 hops 1 back 1

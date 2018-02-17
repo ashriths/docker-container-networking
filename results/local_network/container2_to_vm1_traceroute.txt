@@ -1,0 +1,4 @@
+root@2befcb6cc1d1:/qperf-0.4.9# traceroute 169.228.66.58
+traceroute to 169.228.66.58 (169.228.66.58), 30 hops max, 60 byte packets
+ 1  172.17.0.1 (172.17.0.1)  0.069 ms  0.016 ms  0.014 ms
+ 2  c10-35.sysnet.ucsd.edu (169.228.66.58)  0.143 ms  0.107 ms  0.104 ms

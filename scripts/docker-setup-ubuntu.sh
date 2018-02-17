@@ -10,5 +10,6 @@ stable"
 sudo apt-get update
 sudo apt-get install docker-ce
 apt-cache madison docker-ce
+sudo usermod -aG docker $USER
 sudo docker run hello-world
 set +ex

@@ -1,0 +1,30 @@
+asheshan@c10-36:~/docker-container-networking/scripts/qperf-0.4.9/src$ ./qperf -t 60 -v 169.228.66.58 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency        =  49.9 us
+    msg_rate       =    20 K/sec
+    time           =    60 sec
+    loc_cpus_used  =  13.9 % cpus
+    rem_cpus_used  =  15.9 % cpus
+tcp_bw:
+    bw              =   118 MB/sec
+    msg_rate        =   1.8 K/sec
+    time            =    60 sec
+    send_cost       =   191 ms/GB
+    recv_cost       =  1.86 sec/GB
+    send_cpus_used  =  2.25 % cpus
+    recv_cpus_used  =  21.9 % cpus
+udp_lat:
+    latency        =  48.1 us
+    msg_rate       =  20.8 K/sec
+    time           =    60 sec
+    loc_cpus_used  =  10.9 % cpus
+    rem_cpus_used  =    12 % cpus
+udp_bw:
+    send_bw         =   114 MB/sec
+    recv_bw         =   114 MB/sec
+    msg_rate        =  3.48 K/sec
+    time            =    60 sec
+    send_cost       =  1.27 sec/GB
+    recv_cost       =   626 ms/GB
+    send_cpus_used  =  14.5 % cpus
+    recv_cpus_used  =  7.15 % cpus
