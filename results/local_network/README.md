@@ -23,7 +23,7 @@ Container to VM | 0.123 ms | 0.144 ms| 0.224 ms| 0.028 ms
 Scenario        | RTT avg  | RTT min | RTT max | RTT STD
 ----------------|----------|---------|-------- |---------
 VM to VM        | 0.130 ms | 0.116 ms| 0.207 ms| 0.011 ms
-
+Container to VM | 0.149 ms | 0.130 ms| 0.288 ms| 0.019 ms
 
 ##### Raw Results
 - [VM1 to VM2 pings stats](vm1_ping_stats.txt)
