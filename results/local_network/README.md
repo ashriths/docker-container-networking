@@ -18,6 +18,13 @@ Scenario        | RTT avg  | RTT min | RTT max | RTT STD
 VM to VM        | 0.095 ms | 0.099 ms| 0.136 ms| 0.018 ms
 Container to VM | 0.123 ms | 0.144 ms| 0.224 ms| 0.028 ms
 
+#### TCP RTT performance
+
+Scenario        | RTT avg  | RTT min | RTT max | RTT STD
+----------------|----------|---------|-------- |---------
+VM to VM        | 0.130 ms | 0.116 ms| 0.207 ms| 0.011 ms
+
+
 ##### Raw Results
 - [VM1 to VM2 pings stats](vm1_ping_stats.txt)
 - [VM2 to VM1 pings stats](vm2_ping_stats.txt)
