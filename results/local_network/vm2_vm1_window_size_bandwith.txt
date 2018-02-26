@@ -1,3 +1,4 @@
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 2KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38420 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -17,6 +18,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec   102 MBytes  85.6 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 4KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38444 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -36,6 +39,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec   176 MBytes   147 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 8KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38462 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -55,6 +60,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec   336 MBytes   282 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 16KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38474 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -74,6 +81,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec   680 MBytes   570 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 32KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38498 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -93,6 +102,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec  1.03 GBytes   886 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 64KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38516 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
@@ -112,6 +123,8 @@ Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4]   0.00-10.00  sec  1.05 GBytes   898 Mbits/sec                  receiver
 
 iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 128KB
 Connecting to host c10-35.sysnet.ucsd.edu, port 5201
 [  4] local 169.228.66.59 port 38534 connected to 169.228.66.58 port 5201
 [ ID] Interval           Transfer     Bandwidth       Retr  Cwnd

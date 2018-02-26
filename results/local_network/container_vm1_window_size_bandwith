@@ -1,0 +1,146 @@
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 2KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41726 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  9.51 MBytes  79.8 Mbits/sec    0   7.07 KBytes
+[  4]   1.00-2.00   sec  8.69 MBytes  72.9 Mbits/sec    0   7.07 KBytes
+[  4]   2.00-3.00   sec  9.06 MBytes  76.0 Mbits/sec    0   7.07 KBytes
+[  4]   3.00-4.00   sec  9.02 MBytes  75.7 Mbits/sec    0   7.07 KBytes
+[  4]   4.00-5.00   sec  9.39 MBytes  78.8 Mbits/sec    0   7.07 KBytes
+[  4]   5.00-6.00   sec  10.1 MBytes  85.1 Mbits/sec    0   7.07 KBytes
+[  4]   6.00-7.00   sec  9.31 MBytes  78.1 Mbits/sec    0   7.07 KBytes
+[  4]   7.00-8.00   sec  9.26 MBytes  77.7 Mbits/sec    0   7.07 KBytes
+[  4]   8.00-9.00   sec  9.47 MBytes  79.5 Mbits/sec    0   7.07 KBytes
+[  4]   9.00-10.00  sec  9.28 MBytes  77.8 Mbits/sec    0   7.07 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  93.1 MBytes  78.1 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec  93.1 MBytes  78.1 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 4KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41772 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  16.3 MBytes   136 Mbits/sec    0   14.1 KBytes
+[  4]   1.00-2.00   sec  17.2 MBytes   144 Mbits/sec    0   14.1 KBytes
+[  4]   2.00-3.00   sec  16.5 MBytes   139 Mbits/sec    0   14.1 KBytes
+[  4]   3.00-4.00   sec  16.3 MBytes   137 Mbits/sec    0   14.1 KBytes
+[  4]   4.00-5.00   sec  16.4 MBytes   138 Mbits/sec    0   14.1 KBytes
+[  4]   5.00-6.00   sec  16.1 MBytes   135 Mbits/sec    0   14.1 KBytes
+[  4]   6.00-7.00   sec  16.5 MBytes   138 Mbits/sec    0   14.1 KBytes
+[  4]   7.00-8.00   sec  16.4 MBytes   137 Mbits/sec    0   14.1 KBytes
+[  4]   8.00-9.00   sec  16.8 MBytes   141 Mbits/sec    0   14.1 KBytes
+[  4]   9.00-10.00  sec  17.1 MBytes   144 Mbits/sec    0   14.1 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   166 MBytes   139 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec   166 MBytes   139 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 8KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41790 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  29.3 MBytes   246 Mbits/sec    0   14.1 KBytes
+[  4]   1.00-2.00   sec  31.1 MBytes   261 Mbits/sec    0   14.1 KBytes
+[  4]   2.00-3.00   sec  31.5 MBytes   264 Mbits/sec    0   14.1 KBytes
+[  4]   3.00-4.00   sec  29.5 MBytes   247 Mbits/sec    0   14.1 KBytes
+[  4]   4.00-5.00   sec  32.6 MBytes   274 Mbits/sec    0   14.1 KBytes
+[  4]   5.00-6.00   sec  30.4 MBytes   255 Mbits/sec    0   14.1 KBytes
+[  4]   6.00-7.00   sec  31.0 MBytes   260 Mbits/sec    0   14.1 KBytes
+[  4]   7.00-8.00   sec  29.0 MBytes   243 Mbits/sec    0   14.1 KBytes
+[  4]   8.00-9.00   sec  31.7 MBytes   266 Mbits/sec    0   14.1 KBytes
+[  4]   9.00-10.00  sec  30.9 MBytes   259 Mbits/sec    0   14.1 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   307 MBytes   258 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec   307 MBytes   258 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 16KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41808 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  62.7 MBytes   526 Mbits/sec    8   15.6 KBytes
+[  4]   1.00-2.00   sec  65.1 MBytes   546 Mbits/sec    0   15.6 KBytes
+[  4]   2.00-3.00   sec  64.3 MBytes   539 Mbits/sec    0   15.6 KBytes
+[  4]   3.00-4.00   sec  65.8 MBytes   552 Mbits/sec    0   15.6 KBytes
+[  4]   4.00-5.00   sec  66.0 MBytes   553 Mbits/sec    0   15.6 KBytes
+[  4]   5.00-6.00   sec  63.9 MBytes   536 Mbits/sec    0   15.6 KBytes
+[  4]   6.00-7.00   sec  64.2 MBytes   538 Mbits/sec    0   15.6 KBytes
+[  4]   7.00-8.00   sec  64.8 MBytes   543 Mbits/sec    0   15.6 KBytes
+[  4]   8.00-9.00   sec  64.4 MBytes   540 Mbits/sec    0   15.6 KBytes
+[  4]   9.00-10.00  sec  63.7 MBytes   534 Mbits/sec    0   15.6 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   645 MBytes   541 Mbits/sec    8             sender
+[  4]   0.00-10.00  sec   645 MBytes   541 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 32KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41828 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   105 MBytes   881 Mbits/sec    0   31.1 KBytes
+[  4]   1.00-2.00   sec   109 MBytes   911 Mbits/sec    0   31.1 KBytes
+[  4]   2.00-3.00   sec   106 MBytes   892 Mbits/sec    0   31.1 KBytes
+[  4]   3.00-4.00   sec   107 MBytes   894 Mbits/sec    0   31.1 KBytes
+[  4]   4.00-5.00   sec   107 MBytes   900 Mbits/sec    0   31.1 KBytes
+[  4]   5.00-6.00   sec   108 MBytes   906 Mbits/sec    0   31.1 KBytes
+[  4]   6.00-7.00   sec   110 MBytes   919 Mbits/sec    0   31.1 KBytes
+[  4]   7.00-8.00   sec   110 MBytes   923 Mbits/sec    0   31.1 KBytes
+[  4]   8.00-9.00   sec   111 MBytes   930 Mbits/sec    0   31.1 KBytes
+[  4]   9.00-10.00  sec   110 MBytes   919 Mbits/sec    0   31.1 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.06 GBytes   907 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec  1.06 GBytes   907 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 64KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41860 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   109 MBytes   914 Mbits/sec    0    122 KBytes
+[  4]   1.00-2.00   sec   110 MBytes   926 Mbits/sec    0    122 KBytes
+[  4]   2.00-3.00   sec   109 MBytes   911 Mbits/sec    0    122 KBytes
+[  4]   3.00-4.00   sec   109 MBytes   914 Mbits/sec    0    122 KBytes
+[  4]   4.00-5.00   sec   108 MBytes   908 Mbits/sec    0    122 KBytes
+[  4]   5.00-6.00   sec   112 MBytes   939 Mbits/sec    0    122 KBytes
+[  4]   6.00-7.00   sec   112 MBytes   940 Mbits/sec    0    122 KBytes
+[  4]   7.00-8.00   sec   112 MBytes   939 Mbits/sec    0    122 KBytes
+[  4]   8.00-9.00   sec   111 MBytes   935 Mbits/sec    0    122 KBytes
+[  4]   9.00-10.00  sec   112 MBytes   941 Mbits/sec    0    122 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.08 GBytes   927 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec  1.08 GBytes   927 Mbits/sec                  receiver
+
+iperf Done.
+
+$ iperf3 -c c10-35.sysnet.ucsd.edu -w 128KB
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 41876 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   108 MBytes   909 Mbits/sec    0    134 KBytes
+[  4]   1.00-2.00   sec   110 MBytes   920 Mbits/sec    0    134 KBytes
+[  4]   2.00-3.00   sec   111 MBytes   931 Mbits/sec    0    134 KBytes
+[  4]   3.00-4.00   sec   110 MBytes   922 Mbits/sec    0    134 KBytes
+[  4]   4.00-5.00   sec   110 MBytes   925 Mbits/sec    0    134 KBytes
+[  4]   5.00-6.00   sec   109 MBytes   915 Mbits/sec    0    134 KBytes
+[  4]   6.00-7.00   sec   110 MBytes   925 Mbits/sec    0    134 KBytes
+[  4]   7.00-8.00   sec   111 MBytes   930 Mbits/sec    0    134 KBytes
+[  4]   8.00-9.00   sec   110 MBytes   927 Mbits/sec    0    134 KBytes
+[  4]   9.00-10.00  sec   111 MBytes   928 Mbits/sec    0    134 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.07 GBytes   923 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec  1.07 GBytes   923 Mbits/sec                  receiver
+
+iperf Done.
