@@ -1,0 +1,85 @@
+udp_bw:
+    send_bw   =  114 KB/sec
+    recv_bw   =  114 KB/sec
+    msg_size  =    1 bytes
+    time      =  120 sec
+udp_bw:
+    send_bw   =  226 KB/sec
+    recv_bw   =  226 KB/sec
+    msg_size  =    2 bytes
+    time      =  120 sec
+udp_bw:
+    send_bw   =  448 KB/sec
+    recv_bw   =  448 KB/sec
+    msg_size  =    4 bytes
+    time      =  120 sec
+udp_bw:
+    send_bw   =  900 KB/sec
+    recv_bw   =  900 KB/sec
+    msg_size  =    8 bytes
+    time      =  120 sec
+udp_bw:
+    send_bw   =  1.8 MB/sec
+    recv_bw   =  1.8 MB/sec
+    msg_size  =   16 bytes
+    time      =  120 sec
+udp_bw:
+    send_bw   =  3.59 MB/sec
+    recv_bw   =  3.59 MB/sec
+    msg_size  =    32 bytes
+    time      =   120 sec
+udp_bw:
+    send_bw   =  7.19 MB/sec
+    recv_bw   =  7.19 MB/sec
+    msg_size  =    64 bytes
+    time      =   120 sec
+udp_bw:
+    send_bw   =  14.3 MB/sec
+    recv_bw   =  14.3 MB/sec
+    msg_size  =   128 bytes
+    time      =   120 sec
+udp_bw:
+    send_bw   =  28.4 MB/sec
+    recv_bw   =  28.4 MB/sec
+    msg_size  =   256 bytes
+    time      =   120 sec
+udp_bw:
+    send_bw   =  56.5 MB/sec
+    recv_bw   =  56.5 MB/sec
+    msg_size  =   512 bytes
+    time      =   120 sec
+udp_bw:
+    send_bw   =  111 MB/sec
+    recv_bw   =  111 MB/sec
+    msg_size  =    1 KiB (1,024)
+    time      =  120 sec
+udp_bw:
+    send_bw   =  217 MB/sec
+    recv_bw   =  109 MB/sec
+    msg_size  =    2 KiB (2,048)
+    time      =  120 sec
+udp_bw:
+    send_bw   =  409 MB/sec
+    recv_bw   =  115 MB/sec
+    msg_size  =    4 KiB (4,096)
+    time      =  120 sec
+udp_bw:
+    send_bw   =  827 MB/sec
+    recv_bw   =  111 MB/sec
+    msg_size  =    8 KiB (8,192)
+    time      =  120 sec
+udp_bw:
+    send_bw   =  1.56 GB/sec
+    recv_bw   =   108 MB/sec
+    msg_size  =    16 KiB (16,384)
+    time      =   120 sec
+udp_bw:
+    send_bw   =  2.52 GB/sec
+    recv_bw   =   110 MB/sec
+    msg_size  =    32 KiB (32,768)
+    time      =   120 sec
+udp_bw:
+    send_bw   =    0 bytes/sec
+    recv_bw   =    0 bytes/sec
+    msg_size  =   64 KiB (65,536)
+    time      =  120 sec

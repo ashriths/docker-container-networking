@@ -1,0 +1,108 @@
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   952 MBytes  66.6 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   952 MBytes  66.6 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   913 MBytes  63.8 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   913 MBytes  63.8 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   884 MBytes  61.8 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   884 MBytes  61.8 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   895 MBytes  62.6 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   895 MBytes  62.6 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   889 MBytes  62.1 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   889 MBytes  62.1 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   896 MBytes  62.6 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   896 MBytes  62.6 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   915 MBytes  64.0 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   915 MBytes  64.0 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   907 MBytes  63.4 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   907 MBytes  63.4 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   904 MBytes  63.2 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec   921 MBytes  64.4 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec   921 MBytes  64.4 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  1.07 GBytes  76.4 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  1.07 GBytes  76.4 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  2.08 GBytes   149 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  2.08 GBytes   149 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  3.99 GBytes   286 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  3.99 GBytes   286 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  7.96 GBytes   570 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  7.96 GBytes   570 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  13.1 GBytes   940 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  13.1 GBytes   940 Mbits/sec                  receiver
+
+iperf Done.
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-120.00 sec  13.1 GBytes   940 Mbits/sec    0             sender
+[  4]   0.00-120.00 sec  13.1 GBytes   940 Mbits/sec                  receiver
+
+iperf Done.
