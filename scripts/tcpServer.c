@@ -6,7 +6,11 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(){
+int main(int argc, char *argv[]){
+  if(argc < 2){
+    printf("Usage - send in the port number");
+    exit(0);
+  }
   int welcomeSocket, newSocket, portNum, clientLen, nBytes;
   char buffer[1024];
   struct sockaddr_in serverAddr;
@@ -17,7 +21,8 @@ int main(){
   welcomeSocket = socket(PF_INET, SOCK_STREAM, 0);
   //welcomeSocket = socket(AF_INET, SOCK_DGRAM, 0);
 
-  portNum = 1234;
+  //portNum = 1234;
+  portNum = atoi(argv[1]);
 
   serverAddr.sin_family = AF_INET;
   serverAddr.sin_port = htons(portNum);
