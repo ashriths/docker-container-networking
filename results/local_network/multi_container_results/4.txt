@@ -1,0 +1,44 @@
+**************************************************************************************************
+4 Containers
+**************************************************************************************************
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  76.2 us
+tcp_bw:
+    bw  =  31.2 MB/sec
+udp_lat:
+    latency  =  74.8 us
+udp_bw:
+    169.228.66.58: failed to connect
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  75 us
+tcp_bw:
+    bw  =  30 MB/sec
+udp_lat:
+    latency  =  74.9 us
+udp_bw:
+    169.228.66.58: failed to connect
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9002 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  73.5 us
+tcp_bw:
+    bw  =  30.3 MB/sec
+udp_lat:
+    latency  =  74.8 us
+udp_bw:
+    169.228.66.58: failed to connect
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9003 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  72.1 us
+tcp_bw:
+    bw  =  32 MB/sec
+udp_lat:
+    latency  =  74.7 us
+udp_bw:
+    send_bw  =  2.93 GB/sec
+    recv_bw  =   111 MB/sec

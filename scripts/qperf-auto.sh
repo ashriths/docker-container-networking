@@ -1,0 +1,1 @@
+./qperf c10-35.sysnet.ucsd.edu -oo msg_size:1:64K:*2 -vu udp_bw

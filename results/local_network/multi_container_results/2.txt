@@ -1,0 +1,47 @@
+**************************************************************************************************
+2 Container
+
+# Observations : 2
+
+tcp_latency
+    mean    :  60.90 us
+    std     :  0.5
+    median  :  60.90 us      
+
+tcp_bw              
+    mean    : 59.8 MB/sec
+    std     : 0.3
+    median  : 59.8 MB/sec
+
+udp_lat
+    mean    : 57.3 us
+    std     : 0
+    median  : 57.3 us
+
+udp_bw
+    mean    : 112 MB/sec
+    std     : 0
+    median  : 112 MB/sec
+
+**************************************************************************************************
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  60.4 us
+tcp_bw:
+    bw  =  60.1 MB/sec
+udp_lat:
+    latency  =  57.3 us
+udp_bw:
+    send_bw  =  2.92 GB/sec
+    recv_bw  =   111 MB/sec
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  61.4 us
+tcp_bw:
+    bw  =  59.5 MB/sec
+udp_lat:
+    latency  =  57.3 us
+udp_bw:
+    169.228.66.58: failed to connect

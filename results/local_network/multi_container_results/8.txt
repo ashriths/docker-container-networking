@@ -1,0 +1,92 @@
+**************************************************************************************************
+8 Containers
+**************************************************************************************************
+
+==> data/0.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  103 us
+tcp_bw:
+    bw  =  13.1 MB/sec
+udp_lat:
+    latency  =  96.8 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/1.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  102 us
+tcp_bw:
+    bw  =  12.6 MB/sec
+udp_lat:
+    latency  =  98.2 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/2.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9002 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  101 us
+tcp_bw:
+    bw  =  18.3 MB/sec
+udp_lat:
+    latency  =  94.9 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/3.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9003 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  99.4 us
+tcp_bw:
+    bw  =  21.7 MB/sec
+udp_lat:
+    latency  =  95.2 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/4.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9004 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  97.9 us
+tcp_bw:
+    bw  =  15.7 MB/sec
+udp_lat:
+    latency  =  97.8 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/5.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9005 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  93.5 us
+tcp_bw:
+    bw  =  15 MB/sec
+udp_lat:
+    latency  =  98.3 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/6.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9006 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  92.9 us
+tcp_bw:
+    bw  =  17.5 MB/sec
+udp_lat:
+    latency  =  93.5 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/7.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9007 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  90.5 us
+tcp_bw:
+    bw  =  17.5 MB/sec
+udp_lat:
+    latency  =  97.7 us
+udp_bw:
+    send_bw  =  2.88 GB/sec
+    recv_bw  =   111 MB/sec

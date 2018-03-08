@@ -1,0 +1,37 @@
+**************************************************************************************************
+1 Container
+
+# Observations : 1
+
+tcp_latency
+    mean    :  54.0 us
+    std     :  0
+    median  :  54.0 us      
+
+tcp_bw              
+    mean    : 118 MB/sec
+    std     : 0
+    median  : 118 MB/sec
+
+udp_lat
+    mean    : 49 us
+    std     : 0
+    median  : 49 us
+
+udp_bw
+    mean    : 112 MB/sec
+    std     : 0
+    median  : 112 MB/sec
+
+**************************************************************************************************
+
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  54.0 us
+tcp_bw:
+    bw  =  118 MB/sec
+udp_lat:
+    latency  =  49 us
+udp_bw:
+    send_bw  =  2.92 GB/sec
+    recv_bw  =   112 MB/sec

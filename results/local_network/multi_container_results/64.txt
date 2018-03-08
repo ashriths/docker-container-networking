@@ -1,0 +1,695 @@
+==> data/0.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  17.9 ms
+tcp_bw:
+    bw  =  5.76 MB/sec
+udp_lat:
+169.228.66.58: failed to connect
+
+==> data/10.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9010 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.53 ms
+tcp_bw:
+    bw  =  2.87 MB/sec
+udp_lat:
+    latency  =  89.8 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/11.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9011 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.4 ms
+tcp_bw:
+    bw  =  3.85 MB/sec
+udp_lat:
+    latency  =  81.7 ms
+udp_bw:
+failed to receive port: timed out
+
+==> data/12.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9012 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.2 ms
+tcp_bw:
+    bw  =  3.8 MB/sec
+udp_lat:
+    latency  =  76.1 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/13.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9013 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.14 ms
+tcp_bw:
+    bw  =  3.61 MB/sec
+udp_lat:
+    latency  =  76.5 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/14.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9014 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.09 ms
+tcp_bw:
+    bw  =  3.38 MB/sec
+udp_lat:
+    latency  =  67.4 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/15.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9015 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  977 us
+tcp_bw:
+    bw  =  2.47 MB/sec
+udp_lat:
+    latency  =  5 sec
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/16.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9016 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  859 us
+tcp_bw:
+    bw  =  3.09 MB/sec
+udp_lat:
+    latency  =  61.9 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/17.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9017 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  821 us
+tcp_bw:
+    bw  =  2.67 MB/sec
+udp_lat:
+    latency  =  58.8 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/18.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9018 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  733 us
+tcp_bw:
+    bw  =  2.87 MB/sec
+udp_lat:
+    latency  =  441 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/19.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9019 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  759 us
+tcp_bw:
+    bw  =  2.85 MB/sec
+udp_lat:
+    latency  =  54.2 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/1.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  18.1 ms
+tcp_bw:
+    bw  =  5.87 MB/sec
+udp_lat:
+169.228.66.58: failed to connect
+
+==> data/20.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9020 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  702 us
+tcp_bw:
+    bw  =  2.98 MB/sec
+udp_lat:
+    latency  =  254 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/21.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9021 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  663 us
+tcp_bw:
+    bw  =  2.34 MB/sec
+udp_lat:
+    latency  =  50 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/22.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9022 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  594 us
+tcp_bw:
+    bw  =  2.62 MB/sec
+udp_lat:
+    latency  =  182 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/23.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9023 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  559 us
+tcp_bw:
+    bw  =  2.45 MB/sec
+udp_lat:
+    latency  =  156 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/24.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9024 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  534 us
+tcp_bw:
+    bw  =  2.77 MB/sec
+udp_lat:
+    latency  =  138 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/25.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9025 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  491 us
+tcp_bw:
+    bw  =  2.32 MB/sec
+udp_lat:
+    latency  =  1.3 sec
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/26.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9026 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  481 us
+tcp_bw:
+    bw  =  2.62 MB/sec
+udp_lat:
+    latency  =  108 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/27.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9027 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  455 us
+tcp_bw:
+    bw  =  2.73 MB/sec
+udp_lat:
+    latency  =  95.5 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/28.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9028 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  434 us
+tcp_bw:
+    bw  =  2.22 MB/sec
+udp_lat:
+    latency  =  37.3 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/29.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9029 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  405 us
+tcp_bw:
+    bw  =  2.49 MB/sec
+udp_lat:
+    latency  =  35.8 ms
+udp_bw:
+
+==> data/2.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9002 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  18 ms
+tcp_bw:
+    bw  =  5.73 MB/sec
+udp_lat:
+169.228.66.58: failed to connect
+
+==> data/30.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9030 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  393 us
+tcp_bw:
+    bw  =  2.33 MB/sec
+udp_lat:
+    latency  =  72.8 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/31.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9031 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  382 us
+tcp_bw:
+    bw  =  2.58 MB/sec
+udp_lat:
+    latency  =  484 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/32.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9032 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  361 us
+tcp_bw:
+    bw  =  2.41 MB/sec
+udp_lat:
+    latency  =  1.88 sec
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/33.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9033 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  341 us
+tcp_bw:
+    bw  =  2.58 MB/sec
+udp_lat:
+    latency  =  30.9 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/34.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9034 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  338 us
+tcp_bw:
+    bw  =  3.36 MB/sec
+udp_lat:
+    latency  =  536 ms
+udp_bw:
+failed to receive port: timed out
+
+==> data/35.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9035 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  336 us
+tcp_bw:
+    bw  =  2.28 MB/sec
+udp_lat:
+    latency  =  29 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/36.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9036 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  304 us
+tcp_bw:
+    bw  =  2.31 MB/sec
+udp_lat:
+    latency  =  49.1 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/37.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9037 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  293 us
+tcp_bw:
+    bw  =  2.39 MB/sec
+udp_lat:
+    latency  =  27.1 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/38.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9038 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  282 us
+tcp_bw:
+    bw  =  2.59 MB/sec
+udp_lat:
+    latency  =  43.9 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/39.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9039 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  272 us
+tcp_bw:
+    bw  =  2.48 MB/sec
+udp_lat:
+    latency  =  93.5 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/3.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9003 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  10.3 ms
+tcp_bw:
+    bw  =  5.15 MB/sec
+udp_lat:
+169.228.66.58: failed to connect
+
+==> data/40.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9040 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  257 us
+tcp_bw:
+    bw  =  2.89 MB/sec
+udp_lat:
+    latency  =  171 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/41.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9041 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  256 us
+tcp_bw:
+    bw  =  2.9 MB/sec
+udp_lat:
+    latency  =  268 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/42.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9042 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  243 us
+tcp_bw:
+    bw  =  3.19 MB/sec
+udp_lat:
+    latency  =  70.6 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/43.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9043 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  247 us
+tcp_bw:
+    bw  =  3.05 MB/sec
+udp_lat:
+    latency  =  1.07 sec
+udp_bw:
+failed to receive port: timed out
+
+==> data/44.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9044 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  244 us
+tcp_bw:
+    bw  =  2.77 MB/sec
+udp_lat:
+    latency  =  309 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/45.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9045 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  231 us
+tcp_bw:
+    bw  =  3.18 MB/sec
+udp_lat:
+    latency  =  882 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/46.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9046 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  212 us
+tcp_bw:
+    bw  =  2.34 MB/sec
+udp_lat:
+    latency  =  566 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/47.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9047 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  233 us
+tcp_bw:
+    bw  =  3.98 MB/sec
+udp_lat:
+    latency  =  88 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/48.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9048 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  208 us
+tcp_bw:
+    bw  =  2.76 MB/sec
+udp_lat:
+    latency  =  811 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/49.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9049 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  222 us
+tcp_bw:
+    bw  =  2.44 MB/sec
+udp_lat:
+    latency  =  173 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/4.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9004 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  4.9 ms
+tcp_bw:
+    bw  =  5.59 MB/sec
+udp_lat:
+    latency  =  625 ms
+udp_bw:
+failed to receive results: timed out
+
+==> data/50.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9050 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  213 us
+tcp_bw:
+    bw  =  3.94 MB/sec
+udp_lat:
+    latency  =  144 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/51.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9051 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  187 us
+tcp_bw:
+    bw  =  2.19 MB/sec
+udp_lat:
+    latency  =  714 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/52.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9052 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  199 us
+tcp_bw:
+    bw  =  3.1 MB/sec
+udp_lat:
+    latency  =  224 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/53.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9053 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  179 us
+tcp_bw:
+    bw  =  2.99 MB/sec
+udp_lat:
+    latency  =  176 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/54.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9054 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  175 us
+tcp_bw:
+    bw  =  2.7 MB/sec
+udp_lat:
+    latency  =  130 ms
+udp_bw:
+failed to receive port: timed out
+
+==> data/55.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9055 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  184 us
+tcp_bw:
+    bw  =  2.26 MB/sec
+udp_lat:
+    latency  =  116 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/56.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9056 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  182 us
+tcp_bw:
+    bw  =  2.3 MB/sec
+udp_lat:
+    latency  =  517 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/57.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9057 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  172 us
+tcp_bw:
+    bw  =  3.62 MB/sec
+udp_lat:
+    latency  =  135 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/58.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9058 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  165 us
+tcp_bw:
+    bw  =  4.12 MB/sec
+udp_lat:
+    latency  =  84 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/59.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9059 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  165 us
+tcp_bw:
+    bw  =  8.18 MB/sec
+udp_lat:
+    latency  =  67.4 ms
+udp_bw:
+failed to receive port: timed out
+
+==> data/5.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9005 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  3.85 ms
+tcp_bw:
+    bw  =  4.66 MB/sec
+udp_lat:
+    latency  =  210 ms
+udp_bw:
+failed to receive results: timed out
+
+==> data/60.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9060 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  160 us
+tcp_bw:
+    bw  =  4.23 MB/sec
+udp_lat:
+    latency  =  233 ms
+udp_bw:
+failed to receive port: timed out
+
+==> data/61.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9061 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  153 us
+tcp_bw:
+    bw  =  6.14 MB/sec
+udp_lat:
+    latency  =  238 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/62.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9062 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  145 us
+tcp_bw:
+    bw  =  6.66 MB/sec
+udp_lat:
+    latency  =  300 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/63.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9063 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  142 us
+tcp_bw:
+    bw  =  9.33 MB/sec
+udp_lat:
+    latency  =  103 ms
+udp_bw:
+    send_bw  =  2.78 GB/sec
+    recv_bw  =   105 MB/sec
+
+==> data/6.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9006 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  3.36 ms
+tcp_bw:
+    bw  =  4.22 MB/sec
+udp_lat:
+    latency  =  158 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/7.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9007 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  2.42 ms
+tcp_bw:
+    bw  =  6.65 MB/sec
+udp_lat:
+    latency  =  130 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/8.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9008 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.97 ms
+tcp_bw:
+    bw  =  5.05 MB/sec
+udp_lat:
+    latency  =  109 ms
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/9.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9009 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  1.68 ms
+tcp_bw:
+    bw  =  3.67 MB/sec
+udp_lat:
+    latency  =  98.4 ms
+udp_bw:
+failed to receive port: timed out

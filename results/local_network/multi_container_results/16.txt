@@ -1,0 +1,175 @@
+==> data/0.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  116 us
+tcp_bw:
+    bw  =  14.1 MB/sec
+udp_lat:
+    latency  =  117 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/10.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9010 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  113 us
+tcp_bw:
+    bw  =  9.9 MB/sec
+udp_lat:
+    latency  =  116 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/11.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9011 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  110 us
+tcp_bw:
+    bw  =  8.18 MB/sec
+udp_lat:
+    latency  =  115 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/12.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9012 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  100 us
+tcp_bw:
+    bw  =  7.58 MB/sec
+udp_lat:
+    latency  =  114 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/13.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9013 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  109 us
+tcp_bw:
+    bw  =  6.56 MB/sec
+udp_lat:
+    latency  =  129 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/14.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9014 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  103 us
+tcp_bw:
+    bw  =  9.03 MB/sec
+udp_lat:
+    latency  =  117 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/15.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9015 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  93.7 us
+tcp_bw:
+    bw  =  13.4 MB/sec
+udp_lat:
+    latency  =  115 us
+udp_bw:
+    send_bw  =  2.77 GB/sec
+    recv_bw  =   104 MB/sec
+
+==> data/1.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  117 us
+tcp_bw:
+    bw  =  11.6 MB/sec
+udp_lat:
+    latency  =  117 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/2.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9002 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  112 us
+tcp_bw:
+    bw  =  12.7 MB/sec
+udp_lat:
+    latency  =  114 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/3.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9003 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  107 us
+tcp_bw:
+    bw  =  10.1 MB/sec
+udp_lat:
+    latency  =  113 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/4.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9004 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  128 us
+tcp_bw:
+    bw  =  11.2 MB/sec
+udp_lat:
+    latency  =  113 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/5.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9005 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  108 us
+tcp_bw:
+    bw  =  6.21 MB/sec
+udp_lat:
+    latency  =  118 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/6.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9006 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  107 us
+tcp_bw:
+    bw  =  3.7 MB/sec
+udp_lat:
+    latency  =  116 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/7.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9007 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  119 us
+tcp_bw:
+    bw  =  4.48 MB/sec
+udp_lat:
+    latency  =  117 us
+udp_bw:
+
+==> data/8.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9008 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  99.5 us
+tcp_bw:
+    bw  =  8.98 MB/sec
+udp_lat:
+    latency  =  120 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/9.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9009 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  118 us
+tcp_bw:
+    bw  =  8.13 MB/sec
+udp_lat:
+    latency  =  116 us
+udp_bw:
+169.228.66.58: failed to connect
