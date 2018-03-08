@@ -4,19 +4,19 @@
 # Observations : 64
 
 tcp_latency
-    mean    :  
-    std     :  
-    median  :  
-
+    mean    :  1.66 ms
+    std     :  3.91 ms
+    median  :  0.37 ms
+    
 tcp_bw              
     mean    : 3.53 MB/sec
     std     : 1.50353126007
     median  : 2.895 MB/sec
 
 udp_lat
-    mean    : 
-    std     : 
-    median  : 
+    mean    : 342.178333333 ms
+    std     : 13.5 ms
+    median  : 367.45 ms
 
 udp_bw
     mean    : 111 MB/sec
