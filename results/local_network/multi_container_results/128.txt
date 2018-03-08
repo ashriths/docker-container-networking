@@ -1,3 +1,30 @@
+********************************************************************************
+128 Containers
+
+# Observations : 128
+
+tcp_latency
+    mean    :  
+    std     :  
+    median  :  
+
+tcp_bw              
+    mean    : 1.720234375 MB/sec
+    std     : 0.668933928963
+    median  : 1.53 MB/sec
+
+udp_lat
+    mean    : 
+    std     : 
+    median  : 
+
+udp_bw
+    mean    : 111 MB/sec
+    std     : 0
+    median  : 111 MB/sec
+
+********************************************************************************
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms

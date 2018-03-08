@@ -1,3 +1,30 @@
+********************************************************************************
+16 Containers
+
+# Observations : 16
+
+tcp_latency
+    mean    :  110.0125 us
+    std     :  8.34766995934
+    median  :  109.5 us    
+
+tcp_bw              
+    mean    : 9.115625 MB/sec
+    std     : 2.93865608899
+    median  : 9.005 MB/sec
+
+udp_lat
+    mean    : 116.6875 us
+    std     : 3.65237508342
+    median  : 116.0 us
+
+udp_bw
+    mean    : 111 MB/sec
+    std     : 0
+    median  : 111 MB/sec
+
+********************************************************************************
+
 ==> data/0.txt <==
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
@@ -8,73 +35,6 @@ udp_lat:
     latency  =  117 us
 udp_bw:
 169.228.66.58: failed to connect
-
-==> data/10.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9010 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  113 us
-tcp_bw:
-    bw  =  9.9 MB/sec
-udp_lat:
-    latency  =  116 us
-udp_bw:
-169.228.66.58: failed to connect
-
-==> data/11.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9011 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  110 us
-tcp_bw:
-    bw  =  8.18 MB/sec
-udp_lat:
-    latency  =  115 us
-udp_bw:
-failed to receive port: timed out
-
-==> data/12.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9012 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  100 us
-tcp_bw:
-    bw  =  7.58 MB/sec
-udp_lat:
-    latency  =  114 us
-udp_bw:
-169.228.66.58: failed to connect
-
-==> data/13.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9013 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  109 us
-tcp_bw:
-    bw  =  6.56 MB/sec
-udp_lat:
-    latency  =  129 us
-udp_bw:
-169.228.66.58: failed to connect
-
-==> data/14.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9014 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  103 us
-tcp_bw:
-    bw  =  9.03 MB/sec
-udp_lat:
-    latency  =  117 us
-udp_bw:
-169.228.66.58: failed to connect
-
-==> data/15.txt <==
-/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9015 tcp_lat tcp_bw udp_lat udp_bw
-tcp_lat:
-    latency  =  93.7 us
-tcp_bw:
-    bw  =  13.4 MB/sec
-udp_lat:
-    latency  =  115 us
-udp_bw:
-    send_bw  =  2.77 GB/sec
-    recv_bw  =   104 MB/sec
 
 ==> data/1.txt <==
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
@@ -173,3 +133,70 @@ udp_lat:
     latency  =  116 us
 udp_bw:
 169.228.66.58: failed to connect
+
+==> data/10.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9010 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  113 us
+tcp_bw:
+    bw  =  9.9 MB/sec
+udp_lat:
+    latency  =  116 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/11.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9011 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  110 us
+tcp_bw:
+    bw  =  8.18 MB/sec
+udp_lat:
+    latency  =  115 us
+udp_bw:
+failed to receive port: timed out
+
+==> data/12.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9012 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  100 us
+tcp_bw:
+    bw  =  7.58 MB/sec
+udp_lat:
+    latency  =  114 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/13.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9013 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  109 us
+tcp_bw:
+    bw  =  6.56 MB/sec
+udp_lat:
+    latency  =  129 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/14.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9014 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  103 us
+tcp_bw:
+    bw  =  9.03 MB/sec
+udp_lat:
+    latency  =  117 us
+udp_bw:
+169.228.66.58: failed to connect
+
+==> data/15.txt <==
+/qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9015 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency  =  93.7 us
+tcp_bw:
+    bw  =  13.4 MB/sec
+udp_lat:
+    latency  =  115 us
+udp_bw:
+    send_bw  =  2.77 GB/sec
+    recv_bw  =   104 MB/sec

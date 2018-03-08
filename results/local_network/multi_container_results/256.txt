@@ -1,8 +1,37 @@
+********************************************************************************
+256 Containers
+
+# Observations : 256
+
+tcp_latency
+    mean    :  6.41048828125 ms
+    std     :  1.425
+    median  :  6.46369981366 ms
+
+tcp_bw              
+    mean    : 0.871234373599 MB/sec
+    std     : 0.440379290287
+    median  : 0.869140625 MB/sec
+
+udp_lat
+    mean    : 4.9 sec
+    std     : 1.47 sec
+    median  : 10.6 sec
+
+udp_bw
+    mean    : 111 MB/sec
+    std     : 0
+    median  : 111 MB/sec
+
+********************************************************************************
+
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9000 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  16.2 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9100 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -10,6 +39,7 @@ tcp_bw:
     bw  =  984 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9101 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.1 ms
@@ -17,6 +47,7 @@ tcp_bw:
     bw  =  1.09 MB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9102 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  12.7 ms
@@ -27,6 +58,7 @@ udp_lat:
 udp_bw:
     send_bw  =  2.71 GB/sec
     recv_bw  =   110 MB/sec
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9103 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  10.4 ms
@@ -36,6 +68,7 @@ udp_lat:
     latency  =  763 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9104 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  7.91 ms
@@ -45,6 +78,7 @@ udp_lat:
     latency  =  1.3 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9105 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  6.99 ms
@@ -54,6 +88,7 @@ udp_lat:
     latency  =  2.22 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9106 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  5.47 ms
@@ -63,6 +98,7 @@ udp_lat:
     latency  =  680 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9107 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  4.52 ms
@@ -72,6 +108,7 @@ udp_lat:
     latency  =  794 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9108 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  4.21 ms
@@ -81,6 +118,7 @@ udp_lat:
     latency  =  719 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9109 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  4.07 ms
@@ -90,11 +128,13 @@ udp_lat:
     latency  =  2.63 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9010 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9110 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  4.56 ms
@@ -104,6 +144,7 @@ udp_lat:
     latency  =  483 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9111 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  3.2 ms
@@ -113,6 +154,7 @@ udp_lat:
     latency  =  5.26 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9112 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  3.21 ms
@@ -122,6 +164,7 @@ udp_lat:
     latency  =  1.96 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9113 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  3.03 ms
@@ -131,6 +174,7 @@ udp_lat:
     latency  =  3.85 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9114 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.99 ms
@@ -140,6 +184,7 @@ udp_lat:
     latency  =  5 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9115 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.57 ms
@@ -149,6 +194,7 @@ udp_lat:
     latency  =  1.02 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9116 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.46 ms
@@ -158,6 +204,7 @@ udp_lat:
     latency  =  1.59 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9117 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.42 ms
@@ -167,6 +214,7 @@ udp_lat:
     latency  =  699 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9118 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.11 ms
@@ -176,6 +224,7 @@ udp_lat:
     latency  =  2.5 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9119 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  2.03 ms
@@ -185,6 +234,7 @@ udp_lat:
     latency  =  3.33 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9011 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.3 ms
@@ -195,6 +245,7 @@ udp_lat:
 udp_bw:
     send_bw  =  2.77 GB/sec
     recv_bw  =  45.4 MB/sec
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9120 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.95 ms
@@ -204,6 +255,7 @@ udp_lat:
     latency  =  847 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9121 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.88 ms
@@ -213,6 +265,7 @@ udp_lat:
     latency  =  3.57 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9122 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.82 ms
@@ -222,6 +275,7 @@ udp_lat:
     latency  =  5.26 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9123 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.77 ms
@@ -231,6 +285,7 @@ udp_lat:
     latency  =  100 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9124 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.61 ms
@@ -240,6 +295,7 @@ udp_lat:
     latency  =  7.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9125 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.61 ms
@@ -249,6 +305,7 @@ udp_lat:
     latency  =  158 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9126 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.61 ms
@@ -258,6 +315,7 @@ udp_lat:
     latency  =  2.08 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9127 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.44 ms
@@ -267,6 +325,7 @@ udp_lat:
     latency  =  1.47 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9128 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.41 ms
@@ -276,6 +335,7 @@ udp_lat:
     latency  =  4.17 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9129 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.36 ms
@@ -285,6 +345,7 @@ udp_lat:
     latency  =  398 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9012 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.3 ms
@@ -295,6 +356,7 @@ udp_lat:
 udp_bw:
     send_bw  =  2.76 GB/sec
     recv_bw  =  67.3 MB/sec
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9130 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.4 ms
@@ -304,6 +366,7 @@ udp_lat:
     latency  =  336 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9131 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.34 ms
@@ -313,6 +376,7 @@ udp_lat:
     latency  =  3.12 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9132 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.31 ms
@@ -322,6 +386,7 @@ udp_lat:
     latency  =  645 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9133 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.27 ms
@@ -331,6 +396,7 @@ udp_lat:
     latency  =  2.56 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9134 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.28 ms
@@ -340,6 +406,7 @@ udp_lat:
     latency  =  725 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9135 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.21 ms
@@ -349,6 +416,7 @@ udp_lat:
     latency  =  746 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9136 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.25 ms
@@ -358,6 +426,7 @@ udp_lat:
     latency  =  11.1 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9137 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.26 ms
@@ -367,6 +436,7 @@ udp_lat:
     latency  =  420 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9138 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.21 ms
@@ -376,6 +446,7 @@ udp_lat:
     latency  =  1.89 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9139 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.23 ms
@@ -385,6 +456,7 @@ udp_lat:
     latency  =  1.22 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9013 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -392,6 +464,7 @@ tcp_bw:
     bw  =  23.9 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9140 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.22 ms
@@ -401,6 +474,7 @@ udp_lat:
     latency  =  714 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9141 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.13 ms
@@ -410,6 +484,7 @@ udp_lat:
     latency  =  2.86 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9142 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.13 ms
@@ -419,6 +494,7 @@ udp_lat:
     latency  =  562 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9143 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.11 ms
@@ -428,6 +504,7 @@ udp_lat:
     latency  =  2 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9144 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.05 ms
@@ -437,6 +514,7 @@ udp_lat:
     latency  =  980 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9145 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.05 ms
@@ -446,6 +524,7 @@ udp_lat:
     latency  =  7.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9146 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.06 ms
@@ -455,6 +534,7 @@ udp_lat:
     latency  =  581 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9147 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.27 ms
@@ -464,6 +544,7 @@ udp_lat:
     latency  =  33.3 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9148 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.28 ms
@@ -473,6 +554,7 @@ udp_lat:
     latency  =  20 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9149 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.26 ms
@@ -482,6 +564,7 @@ udp_lat:
     latency  =  3.23 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9014 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -489,6 +572,7 @@ tcp_bw:
     bw  =  34.4 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9150 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  973 us
@@ -498,6 +582,7 @@ udp_lat:
     latency  =  1.35 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9151 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.21 ms
@@ -507,6 +592,7 @@ udp_lat:
     latency  =  763 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9152 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.19 ms
@@ -516,6 +602,7 @@ udp_lat:
     latency  =  529 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9153 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.17 ms
@@ -525,6 +612,7 @@ udp_lat:
     latency  =  1.09 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9154 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.16 ms
@@ -534,6 +622,7 @@ udp_lat:
     latency  =  159 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9155 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.14 ms
@@ -543,6 +632,7 @@ udp_lat:
     latency  =  8.33 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9156 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.12 ms
@@ -552,6 +642,7 @@ udp_lat:
     latency  =  346 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9157 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.1 ms
@@ -561,6 +652,7 @@ udp_lat:
     latency  =  1.61 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9158 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.06 ms
@@ -570,6 +662,7 @@ udp_lat:
     latency  =  4.35 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9159 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  881 us
@@ -579,6 +672,7 @@ udp_lat:
     latency  =  787 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9015 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -586,6 +680,7 @@ tcp_bw:
     bw  =  60 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9160 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  856 us
@@ -595,6 +690,7 @@ udp_lat:
     latency  =  1.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9161 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  870 us
@@ -604,6 +700,7 @@ udp_lat:
     latency  =  290 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9162 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.01 ms
@@ -613,6 +710,7 @@ udp_lat:
     latency  =  3.03 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9163 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  828 us
@@ -622,6 +720,7 @@ udp_lat:
     latency  =  5.88 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9164 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  975 us
@@ -631,6 +730,7 @@ udp_lat:
     latency  =  1.92 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9165 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  956 us
@@ -640,6 +740,7 @@ udp_lat:
     latency  =  535 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9166 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  942 us
@@ -649,6 +750,7 @@ udp_lat:
     latency  =  10 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9167 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  931 us
@@ -658,6 +760,7 @@ udp_lat:
     latency  =  11.1 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9168 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  1.01 ms
@@ -667,6 +770,7 @@ udp_lat:
     latency  =  2.08 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9169 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  897 us
@@ -676,6 +780,7 @@ udp_lat:
     latency  =  546 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9016 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -683,6 +788,7 @@ tcp_bw:
     bw  =  82.6 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9170 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  950 us
@@ -692,6 +798,7 @@ udp_lat:
     latency  =  0 ns
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9171 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  931 us
@@ -701,6 +808,7 @@ udp_lat:
     latency  =  16.7 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9172 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  910 us
@@ -710,6 +818,7 @@ udp_lat:
     latency  =  405 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9173 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  888 us
@@ -719,6 +828,7 @@ udp_lat:
     latency  =  33.3 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9174 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  904 us
@@ -728,6 +838,7 @@ udp_lat:
     latency  =  855 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9175 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  873 us
@@ -737,6 +848,7 @@ udp_lat:
     latency  =  490 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9176 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  863 us
@@ -746,6 +858,7 @@ udp_lat:
     latency  =  1.59 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9177 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  793 us
@@ -755,6 +868,7 @@ udp_lat:
     latency  =  1.67 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9178 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  774 us
@@ -764,6 +878,7 @@ udp_lat:
     latency  =  292 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9179 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  775 us
@@ -773,6 +888,7 @@ udp_lat:
     latency  =  4.55 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9017 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -780,6 +896,7 @@ tcp_bw:
     bw  =  88.1 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9180 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  785 us
@@ -789,6 +906,7 @@ udp_lat:
     latency  =  926 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9181 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  789 us
@@ -798,6 +916,7 @@ udp_lat:
     latency  =  752 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9182 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  778 us
@@ -807,6 +926,7 @@ udp_lat:
     latency  =  7.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9183 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  750 us
@@ -816,6 +936,7 @@ udp_lat:
     latency  =  340 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9184 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  739 us
@@ -825,6 +946,7 @@ udp_lat:
     latency  =  1.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9185 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  731 us
@@ -834,6 +956,7 @@ udp_lat:
     latency  =  581 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9186 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  604 us
@@ -843,6 +966,7 @@ udp_lat:
     latency  =  820 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9187 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  705 us
@@ -852,6 +976,7 @@ udp_lat:
     latency  =  714 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9188 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  768 us
@@ -861,6 +986,7 @@ udp_lat:
     latency  =  1.79 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9189 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  737 us
@@ -870,6 +996,7 @@ udp_lat:
     latency  =  2 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9018 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -879,6 +1006,7 @@ udp_lat:
     latency  =  0 ns
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9190 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  732 us
@@ -888,6 +1016,7 @@ udp_lat:
     latency  =  5.26 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9191 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  729 us
@@ -897,6 +1026,7 @@ udp_lat:
     latency  =  412 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9192 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  710 us
@@ -906,6 +1036,7 @@ udp_lat:
     latency  =  2.08 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9193 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  708 us
@@ -915,6 +1046,7 @@ udp_lat:
     latency  =  25 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9194 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  681 us
@@ -924,6 +1056,7 @@ udp_lat:
     latency  =  926 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9195 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  683 us
@@ -933,6 +1066,7 @@ udp_lat:
     latency  =  4.76 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9196 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  646 us
@@ -942,6 +1076,7 @@ udp_lat:
     latency  =  9.09 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9197 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  662 us
@@ -951,6 +1086,7 @@ udp_lat:
     latency  =  559 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9198 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  643 us
@@ -960,6 +1096,7 @@ udp_lat:
     latency  =  1.02 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9199 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  639 us
@@ -969,6 +1106,7 @@ udp_lat:
     latency  =  1.79 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9019 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.3 ms
@@ -976,11 +1114,13 @@ tcp_bw:
     bw  =  101 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9001 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.8 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9200 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  613 us
@@ -990,6 +1130,7 @@ udp_lat:
     latency  =  990 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9201 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  609 us
@@ -999,6 +1140,7 @@ udp_lat:
     latency  =  4.17 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9202 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  573 us
@@ -1008,6 +1150,7 @@ udp_lat:
     latency  =  5.56 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9203 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  596 us
@@ -1017,6 +1160,7 @@ udp_lat:
     latency  =  12.5 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9204 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  587 us
@@ -1026,6 +1170,7 @@ udp_lat:
     latency  =  481 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9205 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  586 us
@@ -1035,6 +1180,7 @@ udp_lat:
     latency  =  1.23 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9206 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  604 us
@@ -1044,6 +1190,7 @@ udp_lat:
     latency  =  14.3 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9207 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  598 us
@@ -1053,6 +1200,7 @@ udp_lat:
     latency  =  826 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9208 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  586 us
@@ -1062,6 +1210,7 @@ udp_lat:
     latency  =  595 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9209 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  570 us
@@ -1071,6 +1220,7 @@ udp_lat:
     latency  =  503 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9020 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1078,6 +1228,7 @@ tcp_bw:
     bw  =  97.3 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9210 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  577 us
@@ -1087,6 +1238,7 @@ udp_lat:
     latency  =  2.78 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9211 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  559 us
@@ -1096,6 +1248,7 @@ udp_lat:
     latency  =  1.2 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9212 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  541 us
@@ -1105,6 +1258,7 @@ udp_lat:
     latency  =  6.67 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9213 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  543 us
@@ -1114,6 +1268,7 @@ udp_lat:
     latency  =  606 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9214 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  538 us
@@ -1123,6 +1278,7 @@ udp_lat:
     latency  =  318 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9215 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  516 us
@@ -1132,6 +1288,7 @@ udp_lat:
     latency  =  25 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9216 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  515 us
@@ -1141,6 +1298,7 @@ udp_lat:
     latency  =  943 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9217 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  493 us
@@ -1150,6 +1308,7 @@ udp_lat:
     latency  =  495 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9218 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  490 us
@@ -1159,6 +1318,7 @@ udp_lat:
     latency  =  800 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9219 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  492 us
@@ -1168,6 +1328,7 @@ udp_lat:
     latency  =  4.17 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9021 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1175,6 +1336,7 @@ tcp_bw:
     bw  =  125 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9220 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  478 us
@@ -1184,6 +1346,7 @@ udp_lat:
     latency  =  571 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9221 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  518 us
@@ -1193,6 +1356,7 @@ udp_lat:
     latency  =  2.04 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9222 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  462 us
@@ -1202,6 +1366,7 @@ udp_lat:
     latency  =  1.89 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9223 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  484 us
@@ -1211,6 +1376,7 @@ udp_lat:
     latency  =  763 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9224 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  474 us
@@ -1220,6 +1386,7 @@ udp_lat:
     latency  =  806 ms
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9225 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  469 us
@@ -1229,6 +1396,7 @@ udp_lat:
     latency  =  4.76 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9226 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  465 us
@@ -1238,6 +1406,7 @@ udp_lat:
     latency  =  1.11 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9227 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  358 us
@@ -1247,6 +1416,7 @@ udp_lat:
     latency  =  388 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9228 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  452 us
@@ -1256,6 +1426,7 @@ udp_lat:
     latency  =  20 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9229 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  438 us
@@ -1265,6 +1436,7 @@ udp_lat:
     latency  =  8.33 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9022 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1272,6 +1444,7 @@ tcp_bw:
     bw  =  158 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9230 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  430 us
@@ -1281,6 +1454,7 @@ udp_lat:
     latency  =  7.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9231 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  338 us
@@ -1290,6 +1464,7 @@ udp_lat:
     latency  =  0 ns
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9232 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  417 us
@@ -1299,6 +1474,7 @@ udp_lat:
     latency  =  356 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9233 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  408 us
@@ -1308,6 +1484,7 @@ udp_lat:
     latency  =  20 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9234 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  414 us
@@ -1317,6 +1494,7 @@ udp_lat:
     latency  =  408 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9235 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  406 us
@@ -1326,6 +1504,7 @@ udp_lat:
     latency  =  1.14 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9236 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  389 us
@@ -1335,6 +1514,7 @@ udp_lat:
     latency  =  901 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9237 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  390 us
@@ -1344,6 +1524,7 @@ udp_lat:
     latency  =  1.19 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9238 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  375 us
@@ -1353,6 +1534,7 @@ udp_lat:
     latency  =  11.1 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9239 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  372 us
@@ -1362,6 +1544,7 @@ udp_lat:
     latency  =  25 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9023 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1369,6 +1552,7 @@ tcp_bw:
     bw  =  142 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9240 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  376 us
@@ -1378,6 +1562,7 @@ udp_lat:
     latency  =  581 ms
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9241 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  364 us
@@ -1387,6 +1572,7 @@ udp_lat:
     latency  =  14.3 sec
 udp_bw:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9242 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  345 us
@@ -1396,6 +1582,7 @@ udp_lat:
     latency  =  4.55 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9243 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  345 us
@@ -1405,6 +1592,7 @@ udp_lat:
     latency  =  2.94 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9244 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  349 us
@@ -1414,6 +1602,7 @@ udp_lat:
     latency  =  25 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9245 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  342 us
@@ -1423,6 +1612,7 @@ udp_lat:
     latency  =  592 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9246 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  339 us
@@ -1432,6 +1622,7 @@ udp_lat:
     latency  =  7.69 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9247 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  338 us
@@ -1441,6 +1632,7 @@ udp_lat:
     latency  =  840 ms
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9248 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  331 us
@@ -1450,6 +1642,7 @@ udp_lat:
     latency  =  1.82 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9249 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  323 us
@@ -1459,6 +1652,7 @@ udp_lat:
     latency  =  25 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9024 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1466,6 +1660,7 @@ tcp_bw:
     bw  =  162 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9250 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  325 us
@@ -1475,6 +1670,7 @@ udp_lat:
     latency  =  1.39 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9251 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  307 us
@@ -1484,6 +1680,7 @@ udp_lat:
     latency  =  3.23 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9252 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  308 us
@@ -1493,6 +1690,7 @@ udp_lat:
     latency  =  6.67 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9253 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  297 us
@@ -1502,6 +1700,7 @@ udp_lat:
     latency  =  1.43 sec
 udp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9254 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  296 us
@@ -1512,6 +1711,7 @@ udp_lat:
 udp_bw:
     send_bw  =  2.73 GB/sec
     recv_bw  =  54.2 MB/sec
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9255 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  288 us
@@ -1522,6 +1722,7 @@ udp_lat:
 udp_bw:
     send_bw  =  2.72 GB/sec
     recv_bw  =  58.9 MB/sec
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9025 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1529,6 +1730,7 @@ tcp_bw:
     bw  =  188 KB/sec
 udp_lat:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9026 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1536,6 +1738,7 @@ tcp_bw:
     bw  =  239 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9027 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1543,6 +1746,7 @@ tcp_bw:
     bw  =  207 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9028 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1550,6 +1754,7 @@ tcp_bw:
     bw  =  216 KB/sec
 udp_lat:
 failed to receive port: timed out
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9029 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1557,11 +1762,13 @@ tcp_bw:
     bw  =  269 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9002 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.5 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9030 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1569,6 +1776,7 @@ tcp_bw:
     bw  =  242 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9031 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1576,6 +1784,7 @@ tcp_bw:
     bw  =  226 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9032 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1583,6 +1792,7 @@ tcp_bw:
     bw  =  300 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9033 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.3 ms
@@ -1590,6 +1800,7 @@ tcp_bw:
     bw  =  293 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9034 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1597,6 +1808,7 @@ tcp_bw:
     bw  =  300 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9035 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1604,6 +1816,7 @@ tcp_bw:
     bw  =  324 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9036 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.3 ms
@@ -1611,6 +1824,7 @@ tcp_bw:
     bw  =  326 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9037 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1618,6 +1832,7 @@ tcp_bw:
     bw  =  363 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9038 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -1625,6 +1840,7 @@ tcp_bw:
     bw  =  397 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9039 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1632,11 +1848,13 @@ tcp_bw:
     bw  =  388 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9003 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.6 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9040 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1644,6 +1862,7 @@ tcp_bw:
     bw  =  377 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9041 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1651,6 +1870,7 @@ tcp_bw:
     bw  =  376 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9042 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1658,6 +1878,7 @@ tcp_bw:
     bw  =  404 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9043 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -1665,6 +1886,7 @@ tcp_bw:
     bw  =  383 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9044 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.6 ms
@@ -1672,6 +1894,7 @@ tcp_bw:
     bw  =  449 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9045 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1679,6 +1902,7 @@ tcp_bw:
     bw  =  438 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9046 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1686,6 +1910,7 @@ tcp_bw:
     bw  =  451 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9047 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1693,6 +1918,7 @@ tcp_bw:
     bw  =  439 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9048 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1700,6 +1926,7 @@ tcp_bw:
     bw  =  517 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9049 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1707,11 +1934,13 @@ tcp_bw:
     bw  =  493 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9004 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.2 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9050 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.5 ms
@@ -1719,6 +1948,7 @@ tcp_bw:
     bw  =  500 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9051 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1726,6 +1956,7 @@ tcp_bw:
     bw  =  511 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9052 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.9 ms
@@ -1733,6 +1964,7 @@ tcp_bw:
     bw  =  537 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9053 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1740,6 +1972,7 @@ tcp_bw:
     bw  =  557 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9054 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1747,6 +1980,7 @@ tcp_bw:
     bw  =  564 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9055 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1754,6 +1988,7 @@ tcp_bw:
     bw  =  547 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9056 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -1761,6 +1996,7 @@ tcp_bw:
     bw  =  624 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9057 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -1768,6 +2004,7 @@ tcp_bw:
     bw  =  592 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9058 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1775,6 +2012,7 @@ tcp_bw:
     bw  =  628 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9059 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.6 ms
@@ -1782,11 +2020,13 @@ tcp_bw:
     bw  =  629 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9005 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.1 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9060 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1794,6 +2034,7 @@ tcp_bw:
     bw  =  657 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9061 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1801,6 +2042,7 @@ tcp_bw:
     bw  =  631 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9062 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1808,6 +2050,7 @@ tcp_bw:
     bw  =  684 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9063 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1815,6 +2058,7 @@ tcp_bw:
     bw  =  659 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9064 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1822,6 +2066,7 @@ tcp_bw:
     bw  =  708 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9065 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1829,6 +2074,7 @@ tcp_bw:
     bw  =  691 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9066 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1836,6 +2082,7 @@ tcp_bw:
     bw  =  764 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9067 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1843,6 +2090,7 @@ tcp_bw:
     bw  =  801 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9068 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1850,6 +2098,7 @@ tcp_bw:
     bw  =  702 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9069 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1857,11 +2106,13 @@ tcp_bw:
     bw  =  768 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9006 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  15.1 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9070 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1869,6 +2120,7 @@ tcp_bw:
     bw  =  772 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9071 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1876,6 +2128,7 @@ tcp_bw:
     bw  =  711 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9072 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1883,12 +2136,14 @@ tcp_bw:
     bw  =  804 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9073 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
 tcp_bw:
     bw  =  798 KB/sec
 udp_lat:
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9074 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -1896,6 +2151,7 @@ tcp_bw:
     bw  =  753 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9075 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1903,6 +2159,7 @@ tcp_bw:
     bw  =  784 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9076 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1910,6 +2167,7 @@ tcp_bw:
     bw  =  847 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9077 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.8 ms
@@ -1917,6 +2175,7 @@ tcp_bw:
     bw  =  828 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9078 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1924,6 +2183,7 @@ tcp_bw:
     bw  =  806 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9079 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1931,11 +2191,13 @@ tcp_bw:
     bw  =  817 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9007 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.7 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9080 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1943,6 +2205,7 @@ tcp_bw:
     bw  =  927 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9081 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1950,6 +2213,7 @@ tcp_bw:
     bw  =  841 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9082 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1957,6 +2221,7 @@ tcp_bw:
     bw  =  840 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9083 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.4 ms
@@ -1964,6 +2229,7 @@ tcp_bw:
     bw  =  856 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9084 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1971,6 +2237,7 @@ tcp_bw:
     bw  =  897 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9085 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  13.7 ms
@@ -1978,6 +2245,7 @@ tcp_bw:
     bw  =  833 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9086 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -1985,6 +2253,7 @@ tcp_bw:
     bw  =  893 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9087 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1992,6 +2261,7 @@ tcp_bw:
     bw  =  932 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9088 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -1999,6 +2269,7 @@ tcp_bw:
     bw  =  950 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9089 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -2006,11 +2277,13 @@ tcp_bw:
     bw  =  905 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9008 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
 tcp_bw:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9090 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -2018,6 +2291,7 @@ tcp_bw:
     bw  =  932 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9091 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -2025,6 +2299,7 @@ tcp_bw:
     bw  =  898 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9092 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14 ms
@@ -2032,6 +2307,7 @@ tcp_bw:
     bw  =  968 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9093 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -2039,6 +2315,7 @@ tcp_bw:
     bw  =  977 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9094 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -2046,6 +2323,7 @@ tcp_bw:
     bw  =  997 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9095 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -2053,6 +2331,7 @@ tcp_bw:
     bw  =  1 MB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9096 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -2060,6 +2339,7 @@ tcp_bw:
     bw  =  1.04 MB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9097 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.2 ms
@@ -2067,6 +2347,7 @@ tcp_bw:
     bw  =  945 KB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9098 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.6 ms
@@ -2074,6 +2355,7 @@ tcp_bw:
     bw  =  1.1 MB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9099 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.1 ms
@@ -2081,6 +2363,7 @@ tcp_bw:
     bw  =  1.02 MB/sec
 udp_lat:
 169.228.66.58: failed to connect
+
 /qperf-0.4.9/src/qperf -t 60 c10-35.sysnet.ucsd.edu -lp 9009 tcp_lat tcp_bw udp_lat udp_bw
 tcp_lat:
     latency  =  14.5 ms

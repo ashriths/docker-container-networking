@@ -36,6 +36,16 @@ Scenario        |# of hops
 VM to VM        |1    
 Container to VM |2
 
+#### Performance of one container Multi container network performamnce
+
+/#of containers | TCP Latency  | TCP Bandwidth | UDP Latency | UDP Bandwidth
+----------------|--------------|---------------|------------ |-------------- 
+1               |54.0 us       |  118 MB/sec   | 49us        |  112 MB/sec 
+2               |61.2 us       |  60  MB/sec   | 57us        |  109 MB/sec 
+4               |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
+8               |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
+16              |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
+
 ##### Raw Results
 - [VM to VM traceroute](vm1_traceroute.txt)
 - [Conteinar to VM tracerout](container2_to_vm1_traceroute.txt)
