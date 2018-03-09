@@ -36,16 +36,54 @@ Scenario        |# of hops
 VM to VM        |1    
 Container to VM |2
 
+
+#### TCP bandwidth Baseline Container to VM vs VM to VM performance
+
+Window Size     | VM to VM          | Container to VM   |
+----------------|-------------------|-------------------|
+2               |90.2 Mbits/sec     |80.0 Mbits/sec     |     
+4               |153 Mbits/sec      |145 Mbits/sec      |
+8               |296 Mbits/sec      |274 Mbits/sec      |
+12              |416 Mbits/sec      |381 Mbits/sec      |
+16              |619 Mbits/sec      |569 Mbits/sec      |
+20              |712 Mbits/sec      |680 Mbits/sec      |
+24              |872 Mbits/sec      |818 Mbits/sec      |
+28              |851 Mbits/sec      |817 Mbits/sec      |
+32              |941 Mbits/sec      |939 Mbits/sec      |
+36              |941 Mbits/sec      |941 Mbits/sec      |
+40              |941 Mbits/sec      |941 Mbits/sec      |
+44              |941 Mbits/sec      |941 Mbits/sec      |
+48              |941 Mbits/sec      |941 Mbits/sec      |
+52              |941 Mbits/sec      |941 Mbits/sec      |
+56              |941 Mbits/sec      |941 Mbits/sec      |
+60              |940 Mbits/sec      |941 Mbits/sec      |
+64              |941 Mbits/sec      |940 Mbits/sec      |
+128             |941 Mbits/sec      |941 Mbits/sec      |
+256             |941 Mbits/sec      |941 Mbits/sec      |
+
 #### Performance of one container Multi container network performamnce
 
 /#of containers | TCP Latency  | TCP Bandwidth | UDP Latency | UDP Bandwidth
 ----------------|--------------|---------------|------------ |-------------- 
-1               |54.0 us       |  118 MB/sec   | 49us        |  112 MB/sec 
-2               |61.2 us       |  60  MB/sec   | 57us        |  109 MB/sec 
-4               |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
-8               |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
-16              |54 us         |  118 MB/sec   | 49us        |  112 MB/sec 
+1               |0.054 ms      |  118 MB/sec   | 49us        |  112 MB/sec 
+2               |0.061 ms      |  60  MB/sec   | 57us        |  109 MB/sec 
+4               |0.074 ms      |  118 MB/sec   | 49us        |  112 MB/sec 
+8               |0.0975 ms     |  118 MB/sec   | 49us        |  112 MB/sec 
+16              |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
+32              |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
+64              |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
+128             |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
+256             |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
+512             |0.11 ms       |  118 MB/sec   | 49us        |  112 MB/sec 
 
-##### Raw Results
+
+
+0.097525
+0.11
+0.1789
+1.6
+3.91
+6.41
+3.43##### Raw Results
 - [VM to VM traceroute](vm1_traceroute.txt)
 - [Conteinar to VM tracerout](container2_to_vm1_traceroute.txt)
