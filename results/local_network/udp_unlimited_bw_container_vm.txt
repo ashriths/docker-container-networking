@@ -1,0 +1,552 @@
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 54047 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   763 MBytes  6.40 Gbits/sec  97640  
+[  4]   1.00-2.00   sec   766 MBytes  6.43 Gbits/sec  98100  
+[  4]   2.00-3.00   sec   768 MBytes  6.44 Gbits/sec  98330  
+[  4]   3.00-4.00   sec   767 MBytes  6.44 Gbits/sec  98200  
+[  4]   4.00-5.00   sec   768 MBytes  6.44 Gbits/sec  98240  
+[  4]   5.00-6.00   sec   774 MBytes  6.50 Gbits/sec  99120  
+[  4]   6.00-7.00   sec   775 MBytes  6.50 Gbits/sec  99220  
+[  4]   7.00-8.00   sec   776 MBytes  6.51 Gbits/sec  99350  
+[  4]   8.00-9.00   sec   777 MBytes  6.52 Gbits/sec  99460  
+[  4]   9.00-10.00  sec   795 MBytes  6.67 Gbits/sec  101780  
+[  4]  10.00-11.00  sec   803 MBytes  6.74 Gbits/sec  102780  
+[  4]  11.00-12.00  sec   803 MBytes  6.73 Gbits/sec  102760  
+[  4]  12.00-13.00  sec   803 MBytes  6.74 Gbits/sec  102830  
+[  4]  13.00-14.00  sec   804 MBytes  6.75 Gbits/sec  102970  
+[  4]  14.00-15.00  sec   804 MBytes  6.74 Gbits/sec  102920  
+[  4]  15.00-16.00  sec   806 MBytes  6.76 Gbits/sec  103110  
+[  4]  16.00-17.00  sec   804 MBytes  6.74 Gbits/sec  102880  
+[  4]  17.00-18.00  sec   795 MBytes  6.67 Gbits/sec  101820  
+[  4]  18.00-19.00  sec   797 MBytes  6.69 Gbits/sec  102070  
+[  4]  19.00-20.00  sec   795 MBytes  6.67 Gbits/sec  101720  
+[  4]  20.00-21.00  sec   796 MBytes  6.68 Gbits/sec  101900  
+[  4]  21.00-22.00  sec   777 MBytes  6.52 Gbits/sec  99500  
+[  4]  22.00-23.00  sec   768 MBytes  6.44 Gbits/sec  98320  
+[  4]  23.00-24.00  sec   770 MBytes  6.46 Gbits/sec  98520  
+[  4]  24.00-25.00  sec   770 MBytes  6.46 Gbits/sec  98570  
+[  4]  25.00-26.00  sec   800 MBytes  6.71 Gbits/sec  102460  
+[  4]  26.00-27.00  sec   778 MBytes  6.52 Gbits/sec  99560  
+[  4]  27.00-28.00  sec   778 MBytes  6.53 Gbits/sec  99580  
+[  4]  28.00-29.00  sec   776 MBytes  6.51 Gbits/sec  99290  
+[  4]  29.00-30.00  sec   777 MBytes  6.52 Gbits/sec  99500  
+[  4]  30.00-31.00  sec   777 MBytes  6.52 Gbits/sec  99510  
+[  4]  31.00-32.00  sec   776 MBytes  6.51 Gbits/sec  99330  
+[  4]  32.00-33.00  sec   776 MBytes  6.51 Gbits/sec  99320  
+[  4]  33.00-34.00  sec   775 MBytes  6.50 Gbits/sec  99240  
+[  4]  34.00-35.00  sec   775 MBytes  6.51 Gbits/sec  99260  
+[  4]  35.00-36.00  sec   778 MBytes  6.52 Gbits/sec  99520  
+[  4]  36.00-37.00  sec   777 MBytes  6.52 Gbits/sec  99470  
+[  4]  37.00-38.00  sec   775 MBytes  6.50 Gbits/sec  99240  
+[  4]  38.00-39.00  sec   777 MBytes  6.52 Gbits/sec  99450  
+[  4]  39.00-40.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+[  4]  40.00-41.00  sec   776 MBytes  6.51 Gbits/sec  99270  
+[  4]  41.00-42.00  sec   777 MBytes  6.52 Gbits/sec  99450  
+[  4]  42.00-43.00  sec   777 MBytes  6.51 Gbits/sec  99410  
+[  4]  43.00-44.00  sec   767 MBytes  6.44 Gbits/sec  98190  
+[  4]  44.00-45.00  sec   768 MBytes  6.44 Gbits/sec  98290  
+[  4]  45.00-46.00  sec   768 MBytes  6.44 Gbits/sec  98250  
+[  4]  46.00-47.00  sec   768 MBytes  6.44 Gbits/sec  98240  
+[  4]  47.00-48.00  sec   768 MBytes  6.44 Gbits/sec  98320  
+[  4]  48.00-49.00  sec   770 MBytes  6.46 Gbits/sec  98560  
+[  4]  49.00-50.00  sec   771 MBytes  6.46 Gbits/sec  98640  
+[  4]  50.00-51.00  sec   771 MBytes  6.46 Gbits/sec  98640  
+[  4]  51.00-52.00  sec   801 MBytes  6.72 Gbits/sec  102490  
+[  4]  52.00-53.00  sec   780 MBytes  6.54 Gbits/sec  99830  
+[  4]  53.00-54.00  sec   776 MBytes  6.51 Gbits/sec  99350  
+[  4]  54.00-55.00  sec   775 MBytes  6.50 Gbits/sec  99180  
+[  4]  55.00-56.00  sec   776 MBytes  6.51 Gbits/sec  99280  
+[  4]  56.00-57.00  sec   776 MBytes  6.51 Gbits/sec  99280  
+[  4]  57.00-58.00  sec   776 MBytes  6.51 Gbits/sec  99320  
+[  4]  58.00-59.00  sec   776 MBytes  6.51 Gbits/sec  99380  
+[  4]  59.00-60.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  45.7 GBytes  6.54 Gbits/sec  0.088 ms  5203968/5989009 (87%)  
+[  4] Sent 5989009 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 36335 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   707 MBytes  5.93 Gbits/sec  90490  
+[  4]   1.00-2.00   sec   708 MBytes  5.94 Gbits/sec  90610  
+[  4]   2.00-3.00   sec   708 MBytes  5.94 Gbits/sec  90650  
+[  4]   3.00-4.00   sec   707 MBytes  5.93 Gbits/sec  90500  
+[  4]   4.00-5.00   sec   707 MBytes  5.93 Gbits/sec  90520  
+[  4]   5.00-6.00   sec   709 MBytes  5.94 Gbits/sec  90690  
+[  4]   6.00-7.00   sec   708 MBytes  5.94 Gbits/sec  90650  
+[  4]   7.00-8.00   sec   708 MBytes  5.94 Gbits/sec  90650  
+[  4]   8.00-9.00   sec   708 MBytes  5.94 Gbits/sec  90620  
+[  4]   9.00-10.00  sec   708 MBytes  5.94 Gbits/sec  90640  
+[  4]  10.00-11.00  sec   707 MBytes  5.93 Gbits/sec  90530  
+[  4]  11.00-12.00  sec   708 MBytes  5.94 Gbits/sec  90580  
+[  4]  12.00-13.00  sec   708 MBytes  5.94 Gbits/sec  90660  
+[  4]  13.00-14.00  sec   708 MBytes  5.93 Gbits/sec  90560  
+[  4]  14.00-15.00  sec   708 MBytes  5.94 Gbits/sec  90670  
+[  4]  15.00-16.00  sec   708 MBytes  5.94 Gbits/sec  90570  
+[  4]  16.00-17.00  sec   709 MBytes  5.95 Gbits/sec  90720  
+[  4]  17.00-18.00  sec   703 MBytes  5.90 Gbits/sec  89980  
+[  4]  18.00-19.00  sec   702 MBytes  5.89 Gbits/sec  89830  
+[  4]  19.00-20.00  sec   702 MBytes  5.89 Gbits/sec  89890  
+[  4]  20.00-21.00  sec   703 MBytes  5.89 Gbits/sec  89940  
+[  4]  21.00-22.00  sec   702 MBytes  5.89 Gbits/sec  89850  
+[  4]  22.00-23.00  sec   702 MBytes  5.89 Gbits/sec  89910  
+[  4]  23.00-24.00  sec   701 MBytes  5.88 Gbits/sec  89770  
+[  4]  24.00-25.00  sec   702 MBytes  5.89 Gbits/sec  89860  
+[  4]  25.00-26.00  sec   799 MBytes  6.70 Gbits/sec  102280  
+[  4]  26.00-27.00  sec   711 MBytes  5.96 Gbits/sec  90960  
+[  4]  27.00-28.00  sec   708 MBytes  5.94 Gbits/sec  90560  
+[  4]  28.00-29.00  sec   707 MBytes  5.93 Gbits/sec  90550  
+[  4]  29.00-30.00  sec   708 MBytes  5.94 Gbits/sec  90590  
+[  4]  30.00-31.00  sec   708 MBytes  5.94 Gbits/sec  90590  
+[  4]  31.00-32.00  sec   708 MBytes  5.94 Gbits/sec  90560  
+[  4]  32.00-33.00  sec   708 MBytes  5.94 Gbits/sec  90630  
+[  4]  33.00-34.00  sec   708 MBytes  5.94 Gbits/sec  90610  
+[  4]  34.00-35.00  sec   708 MBytes  5.94 Gbits/sec  90630  
+[  4]  35.00-36.00  sec   707 MBytes  5.93 Gbits/sec  90550  
+[  4]  36.00-37.00  sec   708 MBytes  5.94 Gbits/sec  90640  
+[  4]  37.00-38.00  sec   708 MBytes  5.94 Gbits/sec  90620  
+[  4]  38.00-39.00  sec   707 MBytes  5.93 Gbits/sec  90480  
+[  4]  39.00-40.00  sec   708 MBytes  5.94 Gbits/sec  90580  
+[  4]  40.00-41.00  sec   709 MBytes  5.94 Gbits/sec  90700  
+[  4]  41.00-42.00  sec   708 MBytes  5.94 Gbits/sec  90640  
+[  4]  42.00-43.00  sec   705 MBytes  5.91 Gbits/sec  90220  
+[  4]  43.00-44.00  sec   700 MBytes  5.87 Gbits/sec  89630  
+[  4]  44.00-45.00  sec   701 MBytes  5.88 Gbits/sec  89670  
+[  4]  45.00-46.00  sec   702 MBytes  5.89 Gbits/sec  89840  
+[  4]  46.00-47.00  sec   701 MBytes  5.88 Gbits/sec  89750  
+[  4]  47.00-48.00  sec   702 MBytes  5.89 Gbits/sec  89850  
+[  4]  48.00-49.00  sec   703 MBytes  5.89 Gbits/sec  89930  
+[  4]  49.00-50.00  sec   702 MBytes  5.89 Gbits/sec  89860  
+[  4]  50.00-51.00  sec   702 MBytes  5.89 Gbits/sec  89870  
+[  4]  51.00-52.00  sec   799 MBytes  6.71 Gbits/sec  102320  
+[  4]  52.00-53.00  sec   717 MBytes  6.01 Gbits/sec  91740  
+[  4]  53.00-54.00  sec   709 MBytes  5.94 Gbits/sec  90710  
+[  4]  54.00-55.00  sec   707 MBytes  5.93 Gbits/sec  90540  
+[  4]  55.00-56.00  sec   708 MBytes  5.94 Gbits/sec  90660  
+[  4]  56.00-57.00  sec   708 MBytes  5.94 Gbits/sec  90670  
+[  4]  57.00-58.00  sec   708 MBytes  5.94 Gbits/sec  90590  
+[  4]  58.00-59.00  sec   709 MBytes  5.95 Gbits/sec  90720  
+[  4]  59.00-60.00  sec   708 MBytes  5.94 Gbits/sec  90620  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  41.6 GBytes  5.95 Gbits/sec  0.082 ms  4646961/5448695 (85%)  
+[  4] Sent 5448695 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 53144 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   703 MBytes  5.90 Gbits/sec  89980  
+[  4]   1.00-2.00   sec   705 MBytes  5.91 Gbits/sec  90200  
+[  4]   2.00-3.00   sec   704 MBytes  5.90 Gbits/sec  90060  
+[  4]   3.00-4.00   sec   704 MBytes  5.90 Gbits/sec  90070  
+[  4]   4.00-5.00   sec   704 MBytes  5.91 Gbits/sec  90160  
+[  4]   5.00-6.00   sec   704 MBytes  5.90 Gbits/sec  90060  
+[  4]   6.00-7.00   sec   705 MBytes  5.92 Gbits/sec  90300  
+[  4]   7.00-8.00   sec   705 MBytes  5.91 Gbits/sec  90240  
+[  4]   8.00-9.00   sec   704 MBytes  5.91 Gbits/sec  90160  
+[  4]   9.00-10.00  sec   703 MBytes  5.90 Gbits/sec  90010  
+[  4]  10.00-11.00  sec   703 MBytes  5.90 Gbits/sec  90030  
+[  4]  11.00-12.00  sec   703 MBytes  5.90 Gbits/sec  90010  
+[  4]  12.00-13.00  sec   704 MBytes  5.90 Gbits/sec  90060  
+[  4]  13.00-14.00  sec   703 MBytes  5.90 Gbits/sec  90010  
+[  4]  14.00-15.00  sec   704 MBytes  5.91 Gbits/sec  90170  
+[  4]  15.00-16.00  sec   705 MBytes  5.91 Gbits/sec  90220  
+[  4]  16.00-17.00  sec   702 MBytes  5.89 Gbits/sec  89920  
+[  4]  17.00-18.00  sec   697 MBytes  5.85 Gbits/sec  89200  
+[  4]  18.00-19.00  sec   697 MBytes  5.85 Gbits/sec  89250  
+[  4]  19.00-20.00  sec   698 MBytes  5.86 Gbits/sec  89360  
+[  4]  20.00-21.00  sec   697 MBytes  5.85 Gbits/sec  89230  
+[  4]  21.00-22.00  sec   697 MBytes  5.84 Gbits/sec  89180  
+[  4]  22.00-23.00  sec   697 MBytes  5.85 Gbits/sec  89230  
+[  4]  23.00-24.00  sec   697 MBytes  5.84 Gbits/sec  89180  
+[  4]  24.00-25.00  sec   697 MBytes  5.84 Gbits/sec  89170  
+[  4]  25.00-26.00  sec   796 MBytes  6.68 Gbits/sec  101920  
+[  4]  26.00-27.00  sec   707 MBytes  5.93 Gbits/sec  90480  
+[  4]  27.00-28.00  sec   705 MBytes  5.91 Gbits/sec  90240  
+[  4]  28.00-29.00  sec   704 MBytes  5.91 Gbits/sec  90170  
+[  4]  29.00-30.00  sec   704 MBytes  5.91 Gbits/sec  90170  
+[  4]  30.00-31.00  sec   703 MBytes  5.90 Gbits/sec  90000  
+[  4]  31.00-32.00  sec   705 MBytes  5.91 Gbits/sec  90200  
+[  4]  32.00-33.00  sec   703 MBytes  5.90 Gbits/sec  90020  
+[  4]  33.00-34.00  sec   704 MBytes  5.90 Gbits/sec  90080  
+[  4]  34.00-35.00  sec   704 MBytes  5.91 Gbits/sec  90140  
+[  4]  35.00-36.00  sec   705 MBytes  5.91 Gbits/sec  90240  
+[  4]  36.00-37.00  sec   705 MBytes  5.91 Gbits/sec  90240  
+[  4]  37.00-38.00  sec   704 MBytes  5.91 Gbits/sec  90140  
+[  4]  38.00-39.00  sec   704 MBytes  5.91 Gbits/sec  90110  
+[  4]  39.00-40.00  sec   704 MBytes  5.90 Gbits/sec  90090  
+[  4]  40.00-41.00  sec   705 MBytes  5.91 Gbits/sec  90180  
+[  4]  41.00-42.00  sec   703 MBytes  5.90 Gbits/sec  89990  
+[  4]  42.00-43.00  sec   701 MBytes  5.88 Gbits/sec  89680  
+[  4]  43.00-44.00  sec   699 MBytes  5.86 Gbits/sec  89470  
+[  4]  44.00-45.00  sec   698 MBytes  5.85 Gbits/sec  89300  
+[  4]  45.00-46.00  sec   757 MBytes  6.35 Gbits/sec  96870  
+[  4]  46.00-47.00  sec   798 MBytes  6.70 Gbits/sec  102190  
+[  4]  47.00-48.00  sec   802 MBytes  6.73 Gbits/sec  102660  
+[  4]  48.00-49.00  sec   806 MBytes  6.76 Gbits/sec  103210  
+[  4]  49.00-50.00  sec   808 MBytes  6.78 Gbits/sec  103400  
+[  4]  50.00-51.00  sec   804 MBytes  6.74 Gbits/sec  102900  
+[  4]  51.00-52.00  sec   804 MBytes  6.75 Gbits/sec  102970  
+[  4]  52.00-53.00  sec   805 MBytes  6.76 Gbits/sec  103090  
+[  4]  53.00-54.00  sec   807 MBytes  6.77 Gbits/sec  103250  
+[  4]  54.00-55.00  sec   806 MBytes  6.76 Gbits/sec  103160  
+[  4]  55.00-56.00  sec   798 MBytes  6.69 Gbits/sec  102130  
+[  4]  56.00-57.00  sec   768 MBytes  6.44 Gbits/sec  98300  
+[  4]  57.00-58.00  sec   768 MBytes  6.44 Gbits/sec  98290  
+[  4]  58.00-59.00  sec   771 MBytes  6.47 Gbits/sec  98650  
+[  4]  59.00-60.00  sec   771 MBytes  6.47 Gbits/sec  98730  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  42.6 GBytes  6.09 Gbits/sec  0.094 ms  4765436/5578120 (85%)  
+[  4] Sent 5578120 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 46597 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   774 MBytes  6.50 Gbits/sec  99120  
+[  4]   1.00-2.00   sec   774 MBytes  6.49 Gbits/sec  99010  
+[  4]   2.00-3.00   sec   777 MBytes  6.52 Gbits/sec  99440  
+[  4]   3.00-4.00   sec   778 MBytes  6.52 Gbits/sec  99550  
+[  4]   4.00-5.00   sec   776 MBytes  6.51 Gbits/sec  99340  
+[  4]   5.00-6.00   sec   777 MBytes  6.52 Gbits/sec  99410  
+[  4]   6.00-7.00   sec   779 MBytes  6.54 Gbits/sec  99730  
+[  4]   7.00-8.00   sec   779 MBytes  6.53 Gbits/sec  99700  
+[  4]   8.00-9.00   sec   775 MBytes  6.51 Gbits/sec  99260  
+[  4]   9.00-10.00  sec   775 MBytes  6.50 Gbits/sec  99190  
+[  4]  10.00-11.00  sec   775 MBytes  6.50 Gbits/sec  99200  
+[  4]  11.00-12.00  sec   776 MBytes  6.51 Gbits/sec  99380  
+[  4]  12.00-13.00  sec   776 MBytes  6.51 Gbits/sec  99390  
+[  4]  13.00-14.00  sec   776 MBytes  6.51 Gbits/sec  99330  
+[  4]  14.00-15.00  sec   775 MBytes  6.50 Gbits/sec  99160  
+[  4]  15.00-16.00  sec   778 MBytes  6.52 Gbits/sec  99530  
+[  4]  16.00-17.00  sec   777 MBytes  6.52 Gbits/sec  99460  
+[  4]  17.00-18.00  sec   777 MBytes  6.52 Gbits/sec  99510  
+[  4]  18.00-19.00  sec   778 MBytes  6.52 Gbits/sec  99530  
+[  4]  19.00-20.00  sec   776 MBytes  6.51 Gbits/sec  99360  
+[  4]  20.00-21.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+[  4]  21.00-22.00  sec   780 MBytes  6.55 Gbits/sec  99870  
+[  4]  22.00-23.00  sec   774 MBytes  6.49 Gbits/sec  99100  
+[  4]  23.00-24.00  sec   771 MBytes  6.47 Gbits/sec  98670  
+[  4]  24.00-25.00  sec   768 MBytes  6.44 Gbits/sec  98300  
+[  4]  25.00-26.00  sec   769 MBytes  6.45 Gbits/sec  98420  
+[  4]  26.00-27.00  sec   770 MBytes  6.46 Gbits/sec  98520  
+[  4]  27.00-28.00  sec   774 MBytes  6.49 Gbits/sec  99070  
+[  4]  28.00-29.00  sec   778 MBytes  6.53 Gbits/sec  99580  
+[  4]  29.00-30.00  sec   773 MBytes  6.48 Gbits/sec  98920  
+[  4]  30.00-31.00  sec   769 MBytes  6.45 Gbits/sec  98420  
+[  4]  31.00-32.00  sec   769 MBytes  6.45 Gbits/sec  98440  
+[  4]  32.00-33.00  sec   774 MBytes  6.49 Gbits/sec  99040  
+[  4]  33.00-34.00  sec   773 MBytes  6.48 Gbits/sec  98890  
+[  4]  34.00-35.00  sec   770 MBytes  6.46 Gbits/sec  98620  
+[  4]  35.00-36.00  sec   768 MBytes  6.45 Gbits/sec  98350  
+[  4]  36.00-37.00  sec   769 MBytes  6.45 Gbits/sec  98470  
+[  4]  37.00-38.00  sec   795 MBytes  6.67 Gbits/sec  101710  
+[  4]  38.00-39.00  sec   785 MBytes  6.58 Gbits/sec  100420  
+[  4]  39.00-40.00  sec   777 MBytes  6.52 Gbits/sec  99430  
+[  4]  40.00-41.00  sec   775 MBytes  6.50 Gbits/sec  99220  
+[  4]  41.00-42.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+[  4]  42.00-43.00  sec   775 MBytes  6.50 Gbits/sec  99250  
+[  4]  43.00-44.00  sec   776 MBytes  6.51 Gbits/sec  99360  
+[  4]  44.00-45.00  sec   774 MBytes  6.49 Gbits/sec  99110  
+[  4]  45.00-46.00  sec   775 MBytes  6.50 Gbits/sec  99220  
+[  4]  46.00-47.00  sec   776 MBytes  6.51 Gbits/sec  99320  
+[  4]  47.00-48.00  sec   775 MBytes  6.50 Gbits/sec  99190  
+[  4]  48.00-49.00  sec   776 MBytes  6.51 Gbits/sec  99320  
+[  4]  49.00-50.00  sec   775 MBytes  6.50 Gbits/sec  99200  
+[  4]  50.00-51.00  sec   768 MBytes  6.44 Gbits/sec  98300  
+[  4]  51.00-52.00  sec   770 MBytes  6.46 Gbits/sec  98510  
+[  4]  52.00-53.00  sec   769 MBytes  6.45 Gbits/sec  98420  
+[  4]  53.00-54.00  sec   770 MBytes  6.46 Gbits/sec  98620  
+[  4]  54.00-55.00  sec   769 MBytes  6.45 Gbits/sec  98480  
+[  4]  55.00-56.00  sec   775 MBytes  6.50 Gbits/sec  99240  
+[  4]  56.00-57.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+[  4]  57.00-58.00  sec   778 MBytes  6.52 Gbits/sec  99520  
+[  4]  58.00-59.00  sec   776 MBytes  6.51 Gbits/sec  99370  
+[  4]  59.00-60.00  sec   775 MBytes  6.50 Gbits/sec  99260  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  45.4 GBytes  6.50 Gbits/sec  0.092 ms  5158004/5950934 (87%)  
+[  4] Sent 5950934 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 44949 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   803 MBytes  6.74 Gbits/sec  102790  
+[  4]   1.00-2.00   sec   806 MBytes  6.76 Gbits/sec  103210  
+[  4]   2.00-3.00   sec   808 MBytes  6.78 Gbits/sec  103450  
+[  4]   3.00-4.00   sec   805 MBytes  6.75 Gbits/sec  102980  
+[  4]   4.00-5.00   sec   806 MBytes  6.77 Gbits/sec  103230  
+[  4]   5.00-6.00   sec   806 MBytes  6.76 Gbits/sec  103190  
+[  4]   6.00-7.00   sec   807 MBytes  6.77 Gbits/sec  103290  
+[  4]   7.00-8.00   sec   806 MBytes  6.77 Gbits/sec  103230  
+[  4]   8.00-9.00   sec   806 MBytes  6.76 Gbits/sec  103220  
+[  4]   9.00-10.00  sec   809 MBytes  6.79 Gbits/sec  103540  
+[  4]  10.00-11.00  sec   809 MBytes  6.78 Gbits/sec  103500  
+[  4]  11.00-12.00  sec   806 MBytes  6.76 Gbits/sec  103150  
+[  4]  12.00-13.00  sec   807 MBytes  6.77 Gbits/sec  103310  
+[  4]  13.00-14.00  sec   807 MBytes  6.77 Gbits/sec  103310  
+[  4]  14.00-15.00  sec   807 MBytes  6.77 Gbits/sec  103340  
+[  4]  15.00-16.00  sec   806 MBytes  6.76 Gbits/sec  103120  
+[  4]  16.00-17.00  sec   808 MBytes  6.78 Gbits/sec  103460  
+[  4]  17.00-18.00  sec   808 MBytes  6.78 Gbits/sec  103470  
+[  4]  18.00-19.00  sec   807 MBytes  6.77 Gbits/sec  103250  
+[  4]  19.00-20.00  sec   807 MBytes  6.77 Gbits/sec  103290  
+[  4]  20.00-21.00  sec   808 MBytes  6.78 Gbits/sec  103410  
+[  4]  21.00-22.00  sec   808 MBytes  6.78 Gbits/sec  103440  
+[  4]  22.00-23.00  sec   803 MBytes  6.73 Gbits/sec  102760  
+[  4]  23.00-24.00  sec   800 MBytes  6.71 Gbits/sec  102380  
+[  4]  24.00-25.00  sec   801 MBytes  6.72 Gbits/sec  102540  
+[  4]  25.00-26.00  sec   802 MBytes  6.73 Gbits/sec  102640  
+[  4]  26.00-27.00  sec   798 MBytes  6.69 Gbits/sec  102110  
+[  4]  27.00-28.00  sec   806 MBytes  6.76 Gbits/sec  103210  
+[  4]  28.00-29.00  sec   808 MBytes  6.77 Gbits/sec  103360  
+[  4]  29.00-30.00  sec   802 MBytes  6.73 Gbits/sec  102670  
+[  4]  30.00-31.00  sec   801 MBytes  6.72 Gbits/sec  102510  
+[  4]  31.00-32.00  sec   803 MBytes  6.74 Gbits/sec  102780  
+[  4]  32.00-33.00  sec   801 MBytes  6.72 Gbits/sec  102520  
+[  4]  33.00-34.00  sec   801 MBytes  6.72 Gbits/sec  102540  
+[  4]  34.00-35.00  sec   802 MBytes  6.73 Gbits/sec  102660  
+[  4]  35.00-36.00  sec   803 MBytes  6.74 Gbits/sec  102820  
+[  4]  36.00-37.00  sec   808 MBytes  6.78 Gbits/sec  103440  
+[  4]  37.00-38.00  sec   807 MBytes  6.77 Gbits/sec  103260  
+[  4]  38.00-39.00  sec   809 MBytes  6.79 Gbits/sec  103540  
+[  4]  39.00-40.00  sec   807 MBytes  6.77 Gbits/sec  103310  
+[  4]  40.00-41.00  sec   808 MBytes  6.77 Gbits/sec  103360  
+[  4]  41.00-42.00  sec   807 MBytes  6.77 Gbits/sec  103310  
+[  4]  42.00-43.00  sec   810 MBytes  6.79 Gbits/sec  103670  
+[  4]  43.00-44.00  sec   808 MBytes  6.78 Gbits/sec  103450  
+[  4]  44.00-45.00  sec   808 MBytes  6.78 Gbits/sec  103380  
+[  4]  45.00-46.00  sec   807 MBytes  6.77 Gbits/sec  103350  
+[  4]  46.00-47.00  sec   808 MBytes  6.78 Gbits/sec  103400  
+[  4]  47.00-48.00  sec   808 MBytes  6.78 Gbits/sec  103410  
+[  4]  48.00-49.00  sec   807 MBytes  6.77 Gbits/sec  103280  
+[  4]  49.00-50.00  sec   807 MBytes  6.77 Gbits/sec  103260  
+[  4]  50.00-51.00  sec   800 MBytes  6.71 Gbits/sec  102360  
+[  4]  51.00-52.00  sec   802 MBytes  6.72 Gbits/sec  102600  
+[  4]  52.00-53.00  sec   801 MBytes  6.72 Gbits/sec  102520  
+[  4]  53.00-54.00  sec   800 MBytes  6.71 Gbits/sec  102370  
+[  4]  54.00-55.00  sec   804 MBytes  6.75 Gbits/sec  102930  
+[  4]  55.00-56.00  sec   807 MBytes  6.77 Gbits/sec  103260  
+[  4]  56.00-57.00  sec   807 MBytes  6.77 Gbits/sec  103350  
+[  4]  57.00-58.00  sec   808 MBytes  6.78 Gbits/sec  103400  
+[  4]  58.00-59.00  sec   808 MBytes  6.78 Gbits/sec  103440  
+[  4]  59.00-60.00  sec   809 MBytes  6.78 Gbits/sec  103500  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  47.2 GBytes  6.76 Gbits/sec  0.094 ms  5359777/6186822 (87%)  
+[  4] Sent 6186822 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 36067 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   779 MBytes  6.54 Gbits/sec  99740  
+[  4]   1.00-2.00   sec   781 MBytes  6.55 Gbits/sec  100000  
+[  4]   2.00-3.00   sec   781 MBytes  6.55 Gbits/sec  99990  
+[  4]   3.00-4.00   sec   780 MBytes  6.55 Gbits/sec  99890  
+[  4]   4.00-5.00   sec   782 MBytes  6.56 Gbits/sec  100150  
+[  4]   5.00-6.00   sec   782 MBytes  6.56 Gbits/sec  100090  
+[  4]   6.00-7.00   sec   782 MBytes  6.56 Gbits/sec  100090  
+[  4]   7.00-8.00   sec   783 MBytes  6.57 Gbits/sec  100200  
+[  4]   8.00-9.00   sec   784 MBytes  6.57 Gbits/sec  100310  
+[  4]   9.00-10.00  sec   783 MBytes  6.57 Gbits/sec  100190  
+[  4]  10.00-11.00  sec   783 MBytes  6.56 Gbits/sec  100170  
+[  4]  11.00-12.00  sec   782 MBytes  6.56 Gbits/sec  100040  
+[  4]  12.00-13.00  sec   783 MBytes  6.57 Gbits/sec  100270  
+[  4]  13.00-14.00  sec   780 MBytes  6.55 Gbits/sec  99880  
+[  4]  14.00-15.00  sec   782 MBytes  6.56 Gbits/sec  100100  
+[  4]  15.00-16.00  sec   783 MBytes  6.56 Gbits/sec  100170  
+[  4]  16.00-17.00  sec   781 MBytes  6.55 Gbits/sec  100020  
+[  4]  17.00-18.00  sec   781 MBytes  6.55 Gbits/sec  99970  
+[  4]  18.00-19.00  sec   781 MBytes  6.55 Gbits/sec  99980  
+[  4]  19.00-20.00  sec   781 MBytes  6.56 Gbits/sec  100030  
+[  4]  20.00-21.00  sec   782 MBytes  6.56 Gbits/sec  100100  
+[  4]  21.00-22.00  sec   783 MBytes  6.56 Gbits/sec  100170  
+[  4]  22.00-23.00  sec   780 MBytes  6.54 Gbits/sec  99780  
+[  4]  23.00-24.00  sec   775 MBytes  6.50 Gbits/sec  99170  
+[  4]  24.00-25.00  sec   774 MBytes  6.50 Gbits/sec  99110  
+[  4]  25.00-26.00  sec   776 MBytes  6.51 Gbits/sec  99270  
+[  4]  26.00-27.00  sec   777 MBytes  6.52 Gbits/sec  99430  
+[  4]  27.00-28.00  sec   779 MBytes  6.53 Gbits/sec  99700  
+[  4]  28.00-29.00  sec   783 MBytes  6.57 Gbits/sec  100190  
+[  4]  29.00-30.00  sec   775 MBytes  6.51 Gbits/sec  99260  
+[  4]  30.00-31.00  sec   774 MBytes  6.49 Gbits/sec  99100  
+[  4]  31.00-32.00  sec   772 MBytes  6.48 Gbits/sec  98830  
+[  4]  32.00-33.00  sec   775 MBytes  6.50 Gbits/sec  99190  
+[  4]  33.00-34.00  sec   774 MBytes  6.49 Gbits/sec  99060  
+[  4]  34.00-35.00  sec   775 MBytes  6.50 Gbits/sec  99140  
+[  4]  35.00-36.00  sec   775 MBytes  6.50 Gbits/sec  99220  
+[  4]  36.00-37.00  sec   781 MBytes  6.55 Gbits/sec  99930  
+[  4]  37.00-38.00  sec   782 MBytes  6.56 Gbits/sec  100100  
+[  4]  38.00-39.00  sec   782 MBytes  6.56 Gbits/sec  100150  
+[  4]  39.00-40.00  sec   784 MBytes  6.58 Gbits/sec  100340  
+[  4]  40.00-41.00  sec   782 MBytes  6.56 Gbits/sec  100060  
+[  4]  41.00-42.00  sec   783 MBytes  6.57 Gbits/sec  100190  
+[  4]  42.00-43.00  sec   782 MBytes  6.56 Gbits/sec  100060  
+[  4]  43.00-44.00  sec   782 MBytes  6.56 Gbits/sec  100050  
+[  4]  44.00-45.00  sec   781 MBytes  6.55 Gbits/sec  100000  
+[  4]  45.00-46.00  sec   782 MBytes  6.56 Gbits/sec  100050  
+[  4]  46.00-47.00  sec   784 MBytes  6.57 Gbits/sec  100320  
+[  4]  47.00-48.00  sec   784 MBytes  6.58 Gbits/sec  100330  
+[  4]  48.00-49.00  sec   784 MBytes  6.57 Gbits/sec  100290  
+[  4]  49.00-50.00  sec   781 MBytes  6.55 Gbits/sec  99950  
+[  4]  50.00-51.00  sec   776 MBytes  6.51 Gbits/sec  99280  
+[  4]  51.00-52.00  sec   777 MBytes  6.52 Gbits/sec  99480  
+[  4]  52.00-53.00  sec   775 MBytes  6.50 Gbits/sec  99200  
+[  4]  53.00-54.00  sec   774 MBytes  6.49 Gbits/sec  99030  
+[  4]  54.00-55.00  sec   777 MBytes  6.51 Gbits/sec  99400  
+[  4]  55.00-56.00  sec   782 MBytes  6.56 Gbits/sec  100080  
+[  4]  56.00-57.00  sec   781 MBytes  6.55 Gbits/sec  100000  
+[  4]  57.00-58.00  sec   782 MBytes  6.56 Gbits/sec  100090  
+[  4]  58.00-59.00  sec   780 MBytes  6.55 Gbits/sec  99900  
+[  4]  59.00-60.00  sec   781 MBytes  6.55 Gbits/sec  100000  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  45.7 GBytes  6.54 Gbits/sec  0.096 ms  5185172/5990255 (87%)  
+[  4] Sent 5990255 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 45680 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   808 MBytes  6.78 Gbits/sec  103450  
+[  4]   1.00-2.00   sec   811 MBytes  6.80 Gbits/sec  103800  
+[  4]   2.00-3.00   sec   811 MBytes  6.80 Gbits/sec  103800  
+[  4]   3.00-4.00   sec   811 MBytes  6.80 Gbits/sec  103790  
+[  4]   4.00-5.00   sec   809 MBytes  6.79 Gbits/sec  103530  
+[  4]   5.00-6.00   sec   811 MBytes  6.80 Gbits/sec  103830  
+[  4]   6.00-7.00   sec   811 MBytes  6.81 Gbits/sec  103850  
+[  4]   7.00-8.00   sec   811 MBytes  6.80 Gbits/sec  103800  
+[  4]   8.00-9.00   sec   812 MBytes  6.81 Gbits/sec  103910  
+[  4]   9.00-10.00  sec   810 MBytes  6.80 Gbits/sec  103730  
+[  4]  10.00-11.00  sec   811 MBytes  6.81 Gbits/sec  103850  
+[  4]  11.00-12.00  sec   812 MBytes  6.81 Gbits/sec  103990  
+[  4]  12.00-13.00  sec   811 MBytes  6.80 Gbits/sec  103780  
+[  4]  13.00-14.00  sec   811 MBytes  6.80 Gbits/sec  103750  
+[  4]  14.00-15.00  sec   810 MBytes  6.79 Gbits/sec  103680  
+[  4]  15.00-16.00  sec   813 MBytes  6.82 Gbits/sec  104070  
+[  4]  16.00-17.00  sec   812 MBytes  6.81 Gbits/sec  103930  
+[  4]  17.00-18.00  sec   811 MBytes  6.80 Gbits/sec  103810  
+[  4]  18.00-19.00  sec   809 MBytes  6.79 Gbits/sec  103550  
+[  4]  19.00-20.00  sec   808 MBytes  6.77 Gbits/sec  103360  
+[  4]  20.00-21.00  sec   810 MBytes  6.80 Gbits/sec  103730  
+[  4]  21.00-22.00  sec   811 MBytes  6.81 Gbits/sec  103860  
+[  4]  22.00-23.00  sec   805 MBytes  6.75 Gbits/sec  103050  
+[  4]  23.00-24.00  sec   802 MBytes  6.73 Gbits/sec  102660  
+[  4]  24.00-25.00  sec   802 MBytes  6.73 Gbits/sec  102650  
+[  4]  25.00-26.00  sec   803 MBytes  6.73 Gbits/sec  102730  
+[  4]  26.00-27.00  sec   801 MBytes  6.72 Gbits/sec  102530  
+[  4]  27.00-28.00  sec   810 MBytes  6.79 Gbits/sec  103680  
+[  4]  28.00-29.00  sec   811 MBytes  6.80 Gbits/sec  103810  
+[  4]  29.00-30.00  sec   803 MBytes  6.74 Gbits/sec  102840  
+[  4]  30.00-31.00  sec   804 MBytes  6.75 Gbits/sec  102940  
+[  4]  31.00-32.00  sec   804 MBytes  6.75 Gbits/sec  102930  
+[  4]  32.00-33.00  sec   804 MBytes  6.74 Gbits/sec  102870  
+[  4]  33.00-34.00  sec   804 MBytes  6.75 Gbits/sec  102950  
+[  4]  34.00-35.00  sec   803 MBytes  6.74 Gbits/sec  102820  
+[  4]  35.00-36.00  sec   804 MBytes  6.75 Gbits/sec  102970  
+[  4]  36.00-37.00  sec   812 MBytes  6.81 Gbits/sec  103900  
+[  4]  37.00-38.00  sec   813 MBytes  6.82 Gbits/sec  104020  
+[  4]  38.00-39.00  sec   812 MBytes  6.81 Gbits/sec  103930  
+[  4]  39.00-40.00  sec   811 MBytes  6.80 Gbits/sec  103810  
+[  4]  40.00-41.00  sec   812 MBytes  6.81 Gbits/sec  103920  
+[  4]  41.00-42.00  sec   811 MBytes  6.80 Gbits/sec  103780  
+[  4]  42.00-43.00  sec   812 MBytes  6.81 Gbits/sec  103960  
+[  4]  43.00-44.00  sec   812 MBytes  6.81 Gbits/sec  103950  
+[  4]  44.00-45.00  sec   812 MBytes  6.81 Gbits/sec  103940  
+[  4]  45.00-46.00  sec   812 MBytes  6.81 Gbits/sec  103920  
+[  4]  46.00-47.00  sec   812 MBytes  6.82 Gbits/sec  103990  
+[  4]  47.00-48.00  sec   812 MBytes  6.81 Gbits/sec  103930  
+[  4]  48.00-49.00  sec   810 MBytes  6.79 Gbits/sec  103650  
+[  4]  49.00-50.00  sec   808 MBytes  6.78 Gbits/sec  103460  
+[  4]  50.00-51.00  sec   802 MBytes  6.73 Gbits/sec  102660  
+[  4]  51.00-52.00  sec   801 MBytes  6.72 Gbits/sec  102530  
+[  4]  52.00-53.00  sec   802 MBytes  6.73 Gbits/sec  102650  
+[  4]  53.00-54.00  sec   804 MBytes  6.74 Gbits/sec  102890  
+[  4]  54.00-55.00  sec   804 MBytes  6.75 Gbits/sec  102970  
+[  4]  55.00-56.00  sec   809 MBytes  6.79 Gbits/sec  103560  
+[  4]  56.00-57.00  sec   810 MBytes  6.79 Gbits/sec  103660  
+[  4]  57.00-58.00  sec   810 MBytes  6.79 Gbits/sec  103670  
+[  4]  58.00-59.00  sec   811 MBytes  6.80 Gbits/sec  103790  
+[  4]  59.00-60.00  sec   812 MBytes  6.81 Gbits/sec  103930  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  47.4 GBytes  6.78 Gbits/sec  0.094 ms  5383287/6210729 (87%)  
+[  4] Sent 6210729 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 34294 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   779 MBytes  6.54 Gbits/sec  99770  
+[  4]   1.00-2.00   sec   784 MBytes  6.57 Gbits/sec  100310  
+[  4]   2.00-3.00   sec   780 MBytes  6.54 Gbits/sec  99870  
+[  4]   3.00-4.00   sec   781 MBytes  6.55 Gbits/sec  99950  
+[  4]   4.00-5.00   sec   783 MBytes  6.57 Gbits/sec  100250  
+[  4]   5.00-6.00   sec   782 MBytes  6.56 Gbits/sec  100160  
+[  4]   6.00-7.00   sec   781 MBytes  6.55 Gbits/sec  99940  
+[  4]   7.00-8.00   sec   782 MBytes  6.56 Gbits/sec  100120  
+[  4]   8.00-9.00   sec   781 MBytes  6.55 Gbits/sec  99980  
+[  4]   9.00-10.00  sec   781 MBytes  6.55 Gbits/sec  100000  
+[  4]  10.00-11.00  sec   783 MBytes  6.57 Gbits/sec  100260  
+[  4]  11.00-12.00  sec   783 MBytes  6.57 Gbits/sec  100200  
+[  4]  12.00-13.00  sec   783 MBytes  6.57 Gbits/sec  100210  
+[  4]  13.00-14.00  sec   780 MBytes  6.55 Gbits/sec  99880  
+[  4]  14.00-15.00  sec   781 MBytes  6.55 Gbits/sec  99950  
+[  4]  15.00-16.00  sec   781 MBytes  6.55 Gbits/sec  99950  
+[  4]  16.00-17.00  sec   781 MBytes  6.55 Gbits/sec  99910  
+[  4]  17.00-18.00  sec   782 MBytes  6.56 Gbits/sec  100060  
+[  4]  18.00-19.00  sec   782 MBytes  6.56 Gbits/sec  100110  
+[  4]  19.00-20.00  sec   782 MBytes  6.56 Gbits/sec  100130  
+[  4]  20.00-21.00  sec   782 MBytes  6.56 Gbits/sec  100150  
+[  4]  21.00-22.00  sec   781 MBytes  6.55 Gbits/sec  99970  
+[  4]  22.00-23.00  sec   776 MBytes  6.51 Gbits/sec  99370  
+[  4]  23.00-24.00  sec   776 MBytes  6.51 Gbits/sec  99320  
+[  4]  24.00-25.00  sec   776 MBytes  6.51 Gbits/sec  99340  
+[  4]  25.00-26.00  sec   775 MBytes  6.50 Gbits/sec  99240  
+[  4]  26.00-27.00  sec   776 MBytes  6.51 Gbits/sec  99340  
+[  4]  27.00-28.00  sec   780 MBytes  6.55 Gbits/sec  99900  
+[  4]  28.00-29.00  sec   781 MBytes  6.55 Gbits/sec  99910  
+[  4]  29.00-30.00  sec   776 MBytes  6.51 Gbits/sec  99290  
+[  4]  30.00-31.00  sec   775 MBytes  6.50 Gbits/sec  99200  
+[  4]  31.00-32.00  sec   773 MBytes  6.48 Gbits/sec  98910  
+[  4]  32.00-33.00  sec   774 MBytes  6.49 Gbits/sec  99040  
+[  4]  33.00-34.00  sec   771 MBytes  6.47 Gbits/sec  98750  
+[  4]  34.00-35.00  sec   773 MBytes  6.48 Gbits/sec  98890  
+[  4]  35.00-36.00  sec   773 MBytes  6.49 Gbits/sec  98990  
+[  4]  36.00-37.00  sec   775 MBytes  6.50 Gbits/sec  99250  
+[  4]  37.00-38.00  sec   803 MBytes  6.74 Gbits/sec  102810  
+[  4]  38.00-39.00  sec   784 MBytes  6.57 Gbits/sec  100330  
+[  4]  39.00-40.00  sec   782 MBytes  6.56 Gbits/sec  100060  
+[  4]  40.00-41.00  sec   780 MBytes  6.55 Gbits/sec  99900  
+[  4]  41.00-42.00  sec   782 MBytes  6.56 Gbits/sec  100110  
+[  4]  42.00-43.00  sec   781 MBytes  6.55 Gbits/sec  99920  
+[  4]  43.00-44.00  sec   780 MBytes  6.55 Gbits/sec  99900  
+[  4]  44.00-45.00  sec   781 MBytes  6.55 Gbits/sec  99960  
+[  4]  45.00-46.00  sec   780 MBytes  6.54 Gbits/sec  99820  
+[  4]  46.00-47.00  sec   780 MBytes  6.55 Gbits/sec  99880  
+[  4]  47.00-48.00  sec   782 MBytes  6.56 Gbits/sec  100060  
+[  4]  48.00-49.00  sec   781 MBytes  6.55 Gbits/sec  99980  
+[  4]  49.00-50.00  sec   781 MBytes  6.55 Gbits/sec  99940  
+[  4]  50.00-51.00  sec   781 MBytes  6.55 Gbits/sec  99980  
+[  4]  51.00-52.00  sec   784 MBytes  6.57 Gbits/sec  100290  
+[  4]  52.00-53.00  sec   782 MBytes  6.56 Gbits/sec  100150  
+[  4]  53.00-54.00  sec   779 MBytes  6.53 Gbits/sec  99700  
+[  4]  54.00-55.00  sec   781 MBytes  6.55 Gbits/sec  100020  
+[  4]  55.00-56.00  sec   780 MBytes  6.55 Gbits/sec  99890  
+[  4]  56.00-57.00  sec   781 MBytes  6.55 Gbits/sec  100010  
+[  4]  57.00-58.00  sec   781 MBytes  6.55 Gbits/sec  99950  
+[  4]  58.00-59.00  sec   781 MBytes  6.55 Gbits/sec  99960  
+[  4]  59.00-60.00  sec   776 MBytes  6.51 Gbits/sec  99370  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  45.7 GBytes  6.54 Gbits/sec  0.089 ms  5198964/5991832 (87%)  
+[  4] Sent 5991832 datagrams
+
+iperf Done.
