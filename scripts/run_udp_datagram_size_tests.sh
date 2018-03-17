@@ -5,12 +5,12 @@
 
 
 set -ex
-iperf3 -c $1 -u -b 2000m -w 2KB -t 100 
-iperf3 -c $1 -u -b 2000m -w 4KB -t 100
-iperf3 -c $1 -u -b 2000m -w 8KB -t 100
-iperf3 -c $1 -u -b 2000m -w 16KB -t 100
-iperf3 -c $1 -u -b 2000m -w 32KB -t 100
-iperf3 -c $1 -u -b 2000m -w 64KB -t 100
-iperf3 -c $1 -u -b 2000m -w 128KB -t 100
-iperf3 -c $1 -u -b 2000m -w 256KB -t 100
+iperf3 -c $1 -u -b -l 2KB -t 60 
+iperf3 -c $1 -u -b -l 4KB -t 60
+iperf3 -c $1 -u -b -l 8KB -t 60
+iperf3 -c $1 -u -b -l 16KB -t 60
+iperf3 -c $1 -u -b -l 32KB -t 60
+iperf3 -c $1 -u -b -l 64KB -t 60
+iperf3 -c $1 -u -b -l 128KB -t 60
+iperf3 -c $1 -u -b -l 256KB -t 60
 set +ex
