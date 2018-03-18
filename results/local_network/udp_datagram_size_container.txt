@@ -1,0 +1,414 @@
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 50521 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  80.6 MBytes   676 Mbits/sec  82520  
+[  4]   1.00-2.00   sec  80.6 MBytes   676 Mbits/sec  82496  
+[  4]   2.00-3.00   sec  80.6 MBytes   676 Mbits/sec  82526  
+[  4]   3.00-4.00   sec  80.8 MBytes   678 Mbits/sec  82757  
+[  4]   4.00-5.00   sec  81.1 MBytes   681 Mbits/sec  83072  
+[  4]   5.00-6.00   sec  82.1 MBytes   689 Mbits/sec  84068  
+[  4]   6.00-7.00   sec  82.2 MBytes   690 Mbits/sec  84188  
+[  4]   7.00-8.00   sec  81.9 MBytes   687 Mbits/sec  83854  
+[  4]   8.00-9.00   sec  82.2 MBytes   690 Mbits/sec  84206  
+[  4]   9.00-10.00  sec  82.2 MBytes   689 Mbits/sec  84124  
+[  4]  10.00-11.00  sec  82.1 MBytes   689 Mbits/sec  84065  
+[  4]  11.00-12.00  sec  81.8 MBytes   686 Mbits/sec  83748  
+[  4]  12.00-13.00  sec  81.9 MBytes   687 Mbits/sec  83857  
+[  4]  13.00-14.00  sec  82.0 MBytes   688 Mbits/sec  84009  
+[  4]  14.00-15.00  sec  82.0 MBytes   688 Mbits/sec  83934  
+[  4]  15.00-16.00  sec  82.0 MBytes   688 Mbits/sec  83997  
+[  4]  16.00-17.00  sec  82.0 MBytes   688 Mbits/sec  83927  
+[  4]  17.00-18.00  sec  81.9 MBytes   687 Mbits/sec  83869  
+[  4]  18.00-19.00  sec  81.7 MBytes   685 Mbits/sec  83664  
+[  4]  19.00-20.00  sec  81.9 MBytes   687 Mbits/sec  83872  
+[  4]  20.00-21.00  sec  82.0 MBytes   688 Mbits/sec  83944  
+[  4]  21.00-22.00  sec  81.8 MBytes   686 Mbits/sec  83769  
+[  4]  22.00-23.00  sec  82.0 MBytes   688 Mbits/sec  83939  
+[  4]  23.00-24.00  sec  82.2 MBytes   690 Mbits/sec  84196  
+[  4]  24.00-25.00  sec  81.1 MBytes   681 Mbits/sec  83081  
+[  4]  25.00-26.00  sec  81.0 MBytes   679 Mbits/sec  82898  
+[  4]  26.00-27.00  sec  81.0 MBytes   680 Mbits/sec  82949  
+[  4]  27.00-28.00  sec  81.0 MBytes   679 Mbits/sec  82922  
+[  4]  28.00-29.00  sec  81.0 MBytes   680 Mbits/sec  82989  
+[  4]  29.00-30.00  sec  81.7 MBytes   686 Mbits/sec  83689  
+[  4]  30.00-31.00  sec  82.1 MBytes   689 Mbits/sec  84067  
+[  4]  31.00-32.00  sec  81.5 MBytes   683 Mbits/sec  83418  
+[  4]  32.00-33.00  sec  81.3 MBytes   682 Mbits/sec  83263  
+[  4]  33.00-34.00  sec  81.3 MBytes   682 Mbits/sec  83262  
+[  4]  34.00-35.00  sec  81.3 MBytes   682 Mbits/sec  83244  
+[  4]  35.00-36.00  sec  81.3 MBytes   682 Mbits/sec  83224  
+[  4]  36.00-37.00  sec  81.9 MBytes   687 Mbits/sec  83836  
+[  4]  37.00-38.00  sec  82.1 MBytes   689 Mbits/sec  84068  
+[  4]  38.00-39.00  sec  82.0 MBytes   688 Mbits/sec  84004  
+[  4]  39.00-40.00  sec  82.1 MBytes   688 Mbits/sec  84035  
+[  4]  40.00-41.00  sec  82.0 MBytes   688 Mbits/sec  84006  
+[  4]  41.00-42.00  sec  81.9 MBytes   687 Mbits/sec  83889  
+[  4]  42.00-43.00  sec  82.1 MBytes   689 Mbits/sec  84101  
+[  4]  43.00-44.00  sec  82.0 MBytes   688 Mbits/sec  83980  
+[  4]  44.00-45.00  sec  81.9 MBytes   687 Mbits/sec  83877  
+[  4]  45.00-46.00  sec  82.0 MBytes   688 Mbits/sec  83991  
+[  4]  46.00-47.00  sec  81.9 MBytes   687 Mbits/sec  83867  
+[  4]  47.00-48.00  sec  82.3 MBytes   690 Mbits/sec  84286  
+[  4]  48.00-49.00  sec  82.3 MBytes   690 Mbits/sec  84262  
+[  4]  49.00-50.00  sec  82.1 MBytes   689 Mbits/sec  84056  
+[  4]  50.00-51.00  sec  82.1 MBytes   689 Mbits/sec  84099  
+[  4]  51.00-52.00  sec  82.2 MBytes   690 Mbits/sec  84173  
+[  4]  52.00-53.00  sec  82.2 MBytes   689 Mbits/sec  84159  
+[  4]  53.00-54.00  sec  81.6 MBytes   685 Mbits/sec  83568  
+[  4]  54.00-55.00  sec  81.2 MBytes   682 Mbits/sec  83193  
+[  4]  55.00-56.00  sec  81.3 MBytes   682 Mbits/sec  83205  
+[  4]  56.00-57.00  sec  81.3 MBytes   682 Mbits/sec  83251  
+[  4]  57.00-58.00  sec  81.3 MBytes   682 Mbits/sec  83213  
+[  4]  58.00-59.00  sec  81.5 MBytes   684 Mbits/sec  83507  
+[  4]  59.00-60.00  sec  81.9 MBytes   687 Mbits/sec  83848  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  4.79 GBytes   685 Mbits/sec  0.012 ms  0/5020077 (0%)  
+[  4] Sent 5020077 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 47542 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   117 MBytes   984 Mbits/sec  60059  
+[  4]   1.00-2.00   sec   115 MBytes   967 Mbits/sec  59008  
+[  4]   2.00-3.00   sec   121 MBytes  1.02 Gbits/sec  62112  
+[  4]   3.00-4.00   sec   122 MBytes  1.02 Gbits/sec  62501  
+[  4]   4.00-5.00   sec   119 MBytes   995 Mbits/sec  60707  
+[  4]   5.00-6.00   sec   120 MBytes  1.00 Gbits/sec  61332  
+[  4]   6.00-7.00   sec   118 MBytes   993 Mbits/sec  60598  
+[  4]   7.00-8.00   sec   113 MBytes   950 Mbits/sec  57990  
+[  4]   8.00-9.00   sec   125 MBytes  1.05 Gbits/sec  64171  
+[  4]   9.00-10.00  sec   113 MBytes   950 Mbits/sec  58011  
+[  4]  10.00-11.00  sec   126 MBytes  1.06 Gbits/sec  64695  
+[  4]  11.00-12.00  sec   117 MBytes   978 Mbits/sec  59665  
+[  4]  12.00-13.00  sec   122 MBytes  1.02 Gbits/sec  62339  
+[  4]  13.00-14.00  sec   116 MBytes   975 Mbits/sec  59514  
+[  4]  14.00-15.00  sec   117 MBytes   978 Mbits/sec  59682  
+[  4]  15.00-16.00  sec   124 MBytes  1.04 Gbits/sec  63273  
+[  4]  16.00-17.00  sec   118 MBytes   990 Mbits/sec  60408  
+[  4]  17.00-18.00  sec   121 MBytes  1.01 Gbits/sec  61878  
+[  4]  18.00-19.00  sec   117 MBytes   980 Mbits/sec  59811  
+[  4]  19.00-20.00  sec   121 MBytes  1.01 Gbits/sec  61786  
+[  4]  20.00-21.00  sec   118 MBytes   989 Mbits/sec  60357  
+[  4]  21.00-22.00  sec   111 MBytes   933 Mbits/sec  56939  
+[  4]  22.00-23.00  sec   123 MBytes  1.03 Gbits/sec  63144  
+[  4]  23.00-24.00  sec   126 MBytes  1.06 Gbits/sec  64654  
+[  4]  24.00-25.00  sec   116 MBytes   977 Mbits/sec  59635  
+[  4]  25.00-26.00  sec   115 MBytes   964 Mbits/sec  58849  
+[  4]  26.00-27.00  sec   126 MBytes  1.06 Gbits/sec  64397  
+[  4]  27.00-28.00  sec   109 MBytes   911 Mbits/sec  55595  
+[  4]  28.00-29.00  sec   125 MBytes  1.05 Gbits/sec  64115  
+[  4]  29.00-30.00  sec   122 MBytes  1.02 Gbits/sec  62413  
+[  4]  30.00-31.00  sec   120 MBytes  1.00 Gbits/sec  61278  
+[  4]  31.00-32.00  sec   118 MBytes   986 Mbits/sec  60160  
+[  4]  32.00-33.00  sec   117 MBytes   983 Mbits/sec  60008  
+[  4]  33.00-34.00  sec   124 MBytes  1.04 Gbits/sec  63372  
+[  4]  34.00-35.00  sec   117 MBytes   983 Mbits/sec  60004  
+[  4]  35.00-36.00  sec   122 MBytes  1.03 Gbits/sec  62577  
+[  4]  36.00-37.00  sec   113 MBytes   944 Mbits/sec  57630  
+[  4]  37.00-38.00  sec   126 MBytes  1.06 Gbits/sec  64645  
+[  4]  38.00-39.00  sec   113 MBytes   947 Mbits/sec  57809  
+[  4]  39.00-40.00  sec   120 MBytes  1.00 Gbits/sec  61304  
+[  4]  40.00-41.00  sec   120 MBytes  1.01 Gbits/sec  61504  
+[  4]  41.00-42.00  sec   118 MBytes   989 Mbits/sec  60365  
+[  4]  42.00-43.00  sec   122 MBytes  1.02 Gbits/sec  62308  
+[  4]  43.00-44.00  sec   120 MBytes  1.01 Gbits/sec  61620  
+[  4]  44.00-45.00  sec   119 MBytes   998 Mbits/sec  60926  
+[  4]  45.00-46.00  sec   118 MBytes   988 Mbits/sec  60300  
+[  4]  46.00-47.00  sec   120 MBytes  1.01 Gbits/sec  61350  
+[  4]  47.00-48.00  sec   122 MBytes  1.02 Gbits/sec  62335  
+[  4]  48.00-49.00  sec   120 MBytes  1.01 Gbits/sec  61437  
+[  4]  49.00-50.00  sec   112 MBytes   936 Mbits/sec  57108  
+[  4]  50.00-51.00  sec   125 MBytes  1.05 Gbits/sec  63862  
+[  4]  51.00-52.00  sec   116 MBytes   969 Mbits/sec  59176  
+[  4]  52.00-53.00  sec   116 MBytes   972 Mbits/sec  59321  
+[  4]  53.00-54.00  sec   125 MBytes  1.05 Gbits/sec  64027  
+[  4]  54.00-55.00  sec   118 MBytes   990 Mbits/sec  60420  
+[  4]  55.00-56.00  sec   118 MBytes   992 Mbits/sec  60554  
+[  4]  56.00-57.00  sec   125 MBytes  1.05 Gbits/sec  63941  
+[  4]  57.00-58.00  sec   118 MBytes   994 Mbits/sec  60649  
+[  4]  58.00-59.00  sec   116 MBytes   970 Mbits/sec  59195  
+[  4]  59.00-60.00  sec   119 MBytes   999 Mbits/sec  60994  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  6.98 GBytes   999 Mbits/sec  0.017 ms  969239/3659817 (26%)  
+[  4] Sent 3659817 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 47261 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   112 MBytes   941 Mbits/sec  28712  
+[  4]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  30506  
+[  4]   2.00-3.00   sec   119 MBytes  1.00 Gbits/sec  30524  
+[  4]   3.00-4.00   sec   119 MBytes   999 Mbits/sec  30492  
+[  4]   4.00-5.00   sec   119 MBytes  1.00 Gbits/sec  30525  
+[  4]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  30503  
+[  4]   6.00-7.00   sec   119 MBytes   999 Mbits/sec  30502  
+[  4]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  30514  
+[  4]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  30514  
+[  4]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  30513  
+[  4]  10.00-11.00  sec   119 MBytes  1.00 Gbits/sec  30530  
+[  4]  11.00-12.00  sec   119 MBytes  1.00 Gbits/sec  30522  
+[  4]  12.00-13.00  sec   119 MBytes  1000 Mbits/sec  30517  
+[  4]  13.00-14.00  sec   119 MBytes  1.00 Gbits/sec  30529  
+[  4]  14.00-15.00  sec   119 MBytes  1.00 Gbits/sec  30522  
+[  4]  15.00-16.00  sec   119 MBytes  1.00 Gbits/sec  30545  
+[  4]  16.00-17.00  sec   119 MBytes  1000 Mbits/sec  30515  
+[  4]  17.00-18.00  sec   119 MBytes  1000 Mbits/sec  30514  
+[  4]  18.00-19.00  sec   119 MBytes  1000 Mbits/sec  30504  
+[  4]  19.00-20.00  sec   119 MBytes  1000 Mbits/sec  30503  
+[  4]  20.00-21.00  sec   119 MBytes  1.00 Gbits/sec  30518  
+[  4]  21.00-22.00  sec   119 MBytes  1000 Mbits/sec  30506  
+[  4]  22.00-23.00  sec   119 MBytes  1000 Mbits/sec  30507  
+[  4]  23.00-24.00  sec   119 MBytes  1000 Mbits/sec  30510  
+[  4]  24.00-25.00  sec   119 MBytes  1.00 Gbits/sec  30545  
+[  4]  25.00-26.00  sec   119 MBytes  1.00 Gbits/sec  30522  
+[  4]  26.00-27.00  sec   119 MBytes  1.00 Gbits/sec  30530  
+[  4]  27.00-28.00  sec   119 MBytes  1.00 Gbits/sec  30522  
+[  4]  28.00-29.00  sec   119 MBytes  1000 Mbits/sec  30517  
+[  4]  29.00-30.00  sec   119 MBytes  1000 Mbits/sec  30503  
+[  4]  30.00-31.00  sec   119 MBytes  1.00 Gbits/sec  30529  
+[  4]  31.00-32.00  sec   119 MBytes  1.00 Gbits/sec  30521  
+[  4]  32.00-33.00  sec   119 MBytes  1.00 Gbits/sec  30522  
+[  4]  33.00-34.00  sec   119 MBytes  1.00 Gbits/sec  30530  
+[  4]  34.00-35.00  sec   119 MBytes  1.00 Gbits/sec  30536  
+[  4]  35.00-36.00  sec   119 MBytes  1000 Mbits/sec  30514  
+[  4]  36.00-37.00  sec   119 MBytes   999 Mbits/sec  30491  
+[  4]  37.00-38.00  sec   119 MBytes  1.00 Gbits/sec  30518  
+[  4]  38.00-39.00  sec   119 MBytes   999 Mbits/sec  30489  
+[  4]  39.00-40.00  sec   119 MBytes  1.00 Gbits/sec  30520  
+[  4]  40.00-41.00  sec   119 MBytes  1000 Mbits/sec  30509  
+[  4]  41.00-42.00  sec   119 MBytes  1000 Mbits/sec  30507  
+[  4]  42.00-43.00  sec   119 MBytes  1000 Mbits/sec  30516  
+[  4]  43.00-44.00  sec   119 MBytes  1000 Mbits/sec  30517  
+[  4]  44.00-45.00  sec   119 MBytes  1.00 Gbits/sec  30542  
+[  4]  45.00-46.00  sec   119 MBytes  1000 Mbits/sec  30513  
+[  4]  46.00-47.00  sec   119 MBytes  1.00 Gbits/sec  30523  
+[  4]  47.00-48.00  sec   119 MBytes  1.00 Gbits/sec  30536  
+[  4]  48.00-49.00  sec   119 MBytes  1.00 Gbits/sec  30531  
+[  4]  49.00-50.00  sec   119 MBytes  1.00 Gbits/sec  30520  
+[  4]  50.00-51.00  sec   119 MBytes   999 Mbits/sec  30500  
+[  4]  51.00-52.00  sec   119 MBytes  1000 Mbits/sec  30505  
+[  4]  52.00-53.00  sec   119 MBytes  1000 Mbits/sec  30504  
+[  4]  53.00-54.00  sec   119 MBytes  1.00 Gbits/sec  30523  
+[  4]  54.00-55.00  sec   119 MBytes  1000 Mbits/sec  30508  
+[  4]  55.00-56.00  sec   119 MBytes  1000 Mbits/sec  30506  
+[  4]  56.00-57.00  sec   119 MBytes  1.00 Gbits/sec  30518  
+[  4]  57.00-58.00  sec   119 MBytes  1.00 Gbits/sec  30533  
+[  4]  58.00-59.00  sec   119 MBytes  1000 Mbits/sec  30508  
+[  4]  59.00-60.00  sec   119 MBytes  1.00 Gbits/sec  30588  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  6.98 GBytes   999 Mbits/sec  0.040 ms  559204/1829250 (31%)  
+[  4] Sent 1829250 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 36464 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   110 MBytes   922 Mbits/sec  14064  
+[  4]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  15258  
+[  4]   2.00-3.00   sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  15258  
+[  4]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  15258  
+[  4]   6.00-7.00   sec   119 MBytes  1.00 Gbits/sec  15267  
+[  4]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  15254  
+[  4]   8.00-9.00   sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]   9.00-10.00  sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]  10.00-11.00  sec   119 MBytes  1000 Mbits/sec  15254  
+[  4]  11.00-12.00  sec   119 MBytes  1.00 Gbits/sec  15261  
+[  4]  12.00-13.00  sec   119 MBytes  1.00 Gbits/sec  15266  
+[  4]  13.00-14.00  sec   119 MBytes  1000 Mbits/sec  15254  
+[  4]  14.00-15.00  sec   119 MBytes  1000 Mbits/sec  15257  
+[  4]  15.00-16.00  sec   119 MBytes  1000 Mbits/sec  15259  
+[  4]  16.00-17.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  17.00-18.00  sec   119 MBytes  1.00 Gbits/sec  15266  
+[  4]  18.00-19.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  19.00-20.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  20.00-21.00  sec   119 MBytes  1000 Mbits/sec  15258  
+[  4]  21.00-22.00  sec   119 MBytes  1000 Mbits/sec  15255  
+[  4]  22.00-23.00  sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]  23.00-24.00  sec   119 MBytes  1.00 Gbits/sec  15269  
+[  4]  24.00-25.00  sec   119 MBytes  1000 Mbits/sec  15253  
+[  4]  25.00-26.00  sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]  26.00-27.00  sec   119 MBytes  1000 Mbits/sec  15258  
+[  4]  27.00-28.00  sec   119 MBytes  1000 Mbits/sec  15255  
+[  4]  28.00-29.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  29.00-30.00  sec   119 MBytes  1.00 Gbits/sec  15263  
+[  4]  30.00-31.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  31.00-32.00  sec   119 MBytes  1.00 Gbits/sec  15263  
+[  4]  32.00-33.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  33.00-34.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  34.00-35.00  sec   119 MBytes  1.00 Gbits/sec  15269  
+[  4]  35.00-36.00  sec   119 MBytes  1000 Mbits/sec  15252  
+[  4]  36.00-37.00  sec   119 MBytes  1000 Mbits/sec  15257  
+[  4]  37.00-38.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  38.00-39.00  sec   119 MBytes  1000 Mbits/sec  15255  
+[  4]  39.00-40.00  sec   119 MBytes  1.00 Gbits/sec  15261  
+[  4]  40.00-41.00  sec   119 MBytes  1.00 Gbits/sec  15263  
+[  4]  41.00-42.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  42.00-43.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  43.00-44.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  44.00-45.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  45.00-46.00  sec   119 MBytes  1.00 Gbits/sec  15267  
+[  4]  46.00-47.00  sec   119 MBytes  1000 Mbits/sec  15253  
+[  4]  47.00-48.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  48.00-49.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  49.00-50.00  sec   119 MBytes   999 Mbits/sec  15252  
+[  4]  50.00-51.00  sec   119 MBytes  1.00 Gbits/sec  15263  
+[  4]  51.00-52.00  sec   119 MBytes  1.00 Gbits/sec  15265  
+[  4]  52.00-53.00  sec   119 MBytes  1000 Mbits/sec  15256  
+[  4]  53.00-54.00  sec   119 MBytes  1000 Mbits/sec  15255  
+[  4]  54.00-55.00  sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]  55.00-56.00  sec   119 MBytes  1000 Mbits/sec  15257  
+[  4]  56.00-57.00  sec   119 MBytes  1.00 Gbits/sec  15260  
+[  4]  57.00-58.00  sec   119 MBytes  1.00 Gbits/sec  15266  
+[  4]  58.00-59.00  sec   119 MBytes  1.00 Gbits/sec  15259  
+[  4]  59.00-60.00  sec   119 MBytes  1000 Mbits/sec  15256  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  6.98 GBytes   999 Mbits/sec  0.069 ms  134800/914326 (15%)  
+[  4] Sent 914326 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 35889 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   109 MBytes   913 Mbits/sec  6968  
+[  4]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]   3.00-4.00   sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]   5.00-6.00   sec   119 MBytes  1.00 Gbits/sec  7629  
+[  4]   6.00-7.00   sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  10.00-11.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  11.00-12.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  12.00-13.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  13.00-14.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  14.00-15.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  15.00-16.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  16.00-17.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  17.00-18.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  18.00-19.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  19.00-20.00  sec   119 MBytes  1.00 Gbits/sec  7631  
+[  4]  20.00-21.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  21.00-22.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  22.00-23.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  23.00-24.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  24.00-25.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  25.00-26.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  26.00-27.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  27.00-28.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  28.00-29.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  29.00-30.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  30.00-31.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  31.00-32.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  32.00-33.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  33.00-34.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  34.00-35.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  35.00-36.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  36.00-37.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  37.00-38.00  sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]  38.00-39.00  sec   119 MBytes  1.00 Gbits/sec  7631  
+[  4]  39.00-40.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  40.00-41.00  sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]  41.00-42.00  sec   119 MBytes  1.00 Gbits/sec  7631  
+[  4]  42.00-43.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  43.00-44.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  44.00-45.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  45.00-46.00  sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]  46.00-47.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  47.00-48.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  48.00-49.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  49.00-50.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  50.00-51.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  51.00-52.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  52.00-53.00  sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]  53.00-54.00  sec   119 MBytes  1000 Mbits/sec  7629  
+[  4]  54.00-55.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  55.00-56.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  56.00-57.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  57.00-58.00  sec   119 MBytes  1000 Mbits/sec  7628  
+[  4]  58.00-59.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+[  4]  59.00-60.00  sec   119 MBytes  1.00 Gbits/sec  7630  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  6.97 GBytes   999 Mbits/sec  0.113 ms  53451/457097 (12%)  
+[  4] Sent 457097 datagrams
+
+iperf Done.
+Connecting to host c10-35.sysnet.ucsd.edu, port 5201
+[  4] local 172.17.0.3 port 37014 connected to 169.228.66.58 port 5201
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   108 MBytes   909 Mbits/sec  3468  
+[  4]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3813  
+[  4]   2.00-3.00   sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]   3.00-4.00   sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]   5.00-6.00   sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]   6.00-7.00   sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]   8.00-9.00   sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]   9.00-10.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  10.00-11.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  11.00-12.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  12.00-13.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  13.00-14.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  14.00-15.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  15.00-16.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  16.00-17.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  17.00-18.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  18.00-19.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  19.00-20.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  20.00-21.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  21.00-22.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  22.00-23.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  23.00-24.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  24.00-25.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  25.00-26.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  26.00-27.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  27.00-28.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  28.00-29.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  29.00-30.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  30.00-31.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  31.00-32.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  32.00-33.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  33.00-34.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  34.00-35.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  35.00-36.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  36.00-37.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  37.00-38.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  38.00-39.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  39.00-40.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  40.00-41.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  41.00-42.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  42.00-43.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  43.00-44.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  44.00-45.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  45.00-46.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  46.00-47.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  47.00-48.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  48.00-49.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  49.00-50.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  50.00-51.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  51.00-52.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  52.00-53.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  53.00-54.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  54.00-55.00  sec   119 MBytes  1.00 Gbits/sec  3816  
+[  4]  55.00-56.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  56.00-57.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[  4]  57.00-58.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  58.00-59.00  sec   119 MBytes  1.00 Gbits/sec  3815  
+[  4]  59.00-60.00  sec   119 MBytes  1000 Mbits/sec  3814  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-60.00  sec  6.97 GBytes   998 Mbits/sec  0.271 ms  26730/228490 (12%)  
+[  4] Sent 228490 datagrams
+
+iperf Done.
