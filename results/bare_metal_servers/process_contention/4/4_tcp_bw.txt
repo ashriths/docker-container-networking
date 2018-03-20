@@ -1,0 +1,4 @@
+27.4 MB/sec
+30.4 MB/sec
+28.2 MB/sec
+31.6 MB/sec

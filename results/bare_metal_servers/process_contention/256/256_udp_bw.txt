@@ -1,0 +1,14 @@
+506 MB/sec
+594 MB/sec
+569 MB/sec
+524 MB/sec
+539 MB/sec
+517 MB/sec
+534 MB/sec
+558 MB/sec
+507 MB/sec
+598 MB/sec
+594 MB/sec
+573 MB/sec
+514 MB/sec
+541 MB/sec
