@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{netperf}
+{netperf- manual page}.
+\newblock \url{https://hewlettpackard.github.io/netperf/doc/netperf.html}.
+
+\bibitem{qperf}
+Johann George.
+\newblock {qperf-Man page}.
+\newblock \url{https://linux.die.net/man/1/qperf}.
+
+\bibitem{zhao2017performance}
+Yang Zhao, Nai Xia, Chen Tian, Bo~Li, Yizhou Tang, Yi~Wang, Gong Zhang, Rui Li,
+  and Alex~X Liu.
+\newblock Performance of container networking technologies.
+\newblock In {\em Proceedings of the Workshop on Hot Topics in Container
+  Networking and Networked Systems}, pages 1--6. ACM, 2017.
+
+\end{thebibliography}

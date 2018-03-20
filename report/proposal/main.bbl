@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{netperf}
+{netperf- manual page}.
+\newblock \url{https://hewlettpackard.github.io/netperf/doc/netperf.html}.
+
+\bibitem{qperf}
+Johann George.
+\newblock {qperf-Man page}.
+\newblock \url{https://linux.die.net/man/1/qperf}.
+
+\bibitem{morabito2015hypervisors}
+Roberto Morabito, Jimmy Kj{\"a}llman, and Miika Komu.
+\newblock Hypervisors vs. lightweight virtualization: a performance comparison.
+\newblock In {\em Cloud Engineering (IC2E), 2015 IEEE International Conference
+  on}, pages 386--393. IEEE, 2015.
+
+\bibitem{yu2016freeflow}
+Tianlong Yu, Shadi~Abdollahian Noghabi, Shachar Raindel, Hongqiang Liu, Jitu
+  Padhye, and Vyas Sekar.
+\newblock Freeflow: High performance container networking.
+\newblock In {\em Proceedings of the 15th ACM Workshop on Hot Topics in
+  Networks}, pages 43--49. ACM, 2016.
+
+\bibitem{zhao2017performance}
+Yang Zhao, Nai Xia, Chen Tian, Bo~Li, Yizhou Tang, Yi~Wang, Gong Zhang, Rui Li,
+  and Alex~X Liu.
+\newblock Performance of container networking technologies.
+\newblock In {\em Proceedings of the Workshop on Hot Topics in Container
+  Networking and Networked Systems}, pages 1--6. ACM, 2017.
+
+\end{thebibliography}

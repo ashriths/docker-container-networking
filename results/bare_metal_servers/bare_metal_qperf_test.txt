@@ -1,0 +1,30 @@
+[nfs002@c10-17 ~]$ qperf -t 60 -v 169.228.66.46 tcp_lat tcp_bw udp_lat udp_bw
+tcp_lat:
+    latency        =  49.6 us
+    msg_rate       =  20.1 K/sec
+    time           =    60 sec
+    loc_cpus_used  =    12 % cpus
+    rem_cpus_used  =  8.72 % cpus
+tcp_bw:
+    bw              =   118 MB/sec
+    msg_rate        =   1.8 K/sec
+    time            =    60 sec
+    send_cost       =   198 ms/GB
+    recv_cost       =  1.43 sec/GB
+    send_cpus_used  =  2.33 % cpus
+    recv_cpus_used  =  16.9 % cpus
+udp_lat:
+    latency        =  48.5 us
+    msg_rate       =  20.6 K/sec
+    time           =    60 sec
+    loc_cpus_used  =   9.6 % cpus
+    rem_cpus_used  =  4.92 % cpus
+udp_bw:
+    send_bw         =   114 MB/sec
+    recv_bw         =   114 MB/sec
+    msg_rate        =  3.47 K/sec
+    time            =    60 sec
+    send_cost       =  1.52 sec/GB
+    recv_cost       =   575 ms/GB
+    send_cpus_used  =  17.2 % cpus
+    recv_cpus_used  =  6.55 % cpus
