@@ -1,0 +1,1 @@
+i=520 && while [ $i -ge 0 ]; do p=$((5000 + $i)); iperf3 -s -p $p & i=$((i - 1)); done
