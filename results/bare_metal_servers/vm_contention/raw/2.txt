@@ -1,0 +1,7 @@
+changed: [172.19.222.20] => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5001", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:43.365433", "end": "2018-03-21 00:14:56.280273", "rc": 0, "start
+": "2018-03-21 00:14:12.914840", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  121 us\ntcp_bw:\n    bw  =  46.5 MB/sec\nudp_lat:\n    latency  =  124 us\nudp_bw:\n    send_bw  =  1.7 GB/sec\n    recv_bw  =  105 MB
+/sec", "stdout_lines": ["tcp_lat:", "    latency  =  121 us", "tcp_bw:", "    bw  =  46.5 MB/sec", "udp_lat:", "    latency  =  124 us", "udp_bw:", "    send_bw  =  1.7 GB/sec", "    recv_bw  =  105 MB/sec"]}
+fatal: [172.19.222.73]: FAILED! => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5000", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:37.697453", "end": "2018-03-21 00:26:02.735805", "msg": "
+non-zero return code", "rc": 1, "start": "2018-03-21 00:25:25.038352", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  124 us\ntcp_bw:\n    bw  =  62.8 MB/sec\nudp_lat:\n    latency  =  124 us\nudp_bw:\nc10-17.sysne
+t.ucsd.edu: failed to connect", "stdout_lines": ["tcp_lat:", "    latency  =  124 us", "tcp_bw:", "    bw  =  62.8 MB/sec", "udp_lat:", "    latency  =  124 us", "udp_bw:", "c10-17.sysnet.ucsd.edu: failed to connect"]}
+...ignoring

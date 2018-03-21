@@ -1,0 +1,21 @@
+fatal: [172.19.222.56]: FAILED! => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5004", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:39.021379", "end": "2018-03-21 00:08:58.054501", "msg": "
+non-zero return code", "rc": 1, "start": "2018-03-21 00:08:19.033122", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  148 us\ntcp_bw:\n    bw  =  17.8 MB/sec\nudp_lat:\n    latency  =  144 us\nudp_bw:\nfailed to re
+ceive port: timed out", "stdout_lines": ["tcp_lat:", "    latency  =  148 us", "tcp_bw:", "    bw  =  17.8 MB/sec", "udp_lat:", "    latency  =  144 us", "udp_bw:", "failed to receive port: timed out"]}
+...ignoring
+changed: [172.19.222.20] => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5001", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:43.376835", "end": "2018-03-21 00:40:40.908341", "rc": 0, "start
+": "2018-03-21 00:39:57.531506", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  146 us\ntcp_bw:\n    bw  =  24.7 MB/sec\nudp_lat:\n    latency  =  138 us\nudp_bw:\n    send_bw  =  1.53 GB/sec\n    recv_bw  =   106
+MB/sec", "stdout_lines": ["tcp_lat:", "    latency  =  146 us", "tcp_bw:", "    bw  =  24.7 MB/sec", "udp_lat:", "    latency  =  138 us", "udp_bw:", "    send_bw  =  1.53 GB/sec", "    recv_bw  =   106 MB/sec"]}
+changed: [172.19.222.64] => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5003", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:54.528736", "end": "2018-03-21 00:12:23.823380", "rc": 0, "start
+": "2018-03-21 00:11:29.294644", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  152 us\ntcp_bw:\n    bw  =  27.5 MB/sec\nudp_lat:\n    latency  =  142 us\nudp_bw:\n    send_bw  =  1.79 GB/sec\n    recv_bw  =   104
+MB/sec", "stdout_lines": ["tcp_lat:", "    latency  =  152 us", "tcp_bw:", "    bw  =  27.5 MB/sec", "udp_lat:", "    latency  =  142 us", "udp_bw:", "    send_bw  =  1.79 GB/sec", "    recv_bw  =   104 MB/sec"]}
+changed: [172.19.222.73] => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5000", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:01:05.648700", "end": "2018-03-21 00:52:15.516828", "rc": 0, "start
+": "2018-03-21 00:51:09.868128", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  147 us\ntcp_bw:\n    bw  =  24.4 MB/sec\nudp_lat:\n    latency  =  140 us\nudp_bw:\n    send_bw  =  1.63 GB/sec\n    recv_bw  =   105
+MB/sec", "stdout_lines": ["tcp_lat:", "    latency  =  147 us", "tcp_bw:", "    bw  =  24.4 MB/sec", "udp_lat:", "    latency  =  140 us", "udp_bw:", "    send_bw  =  1.63 GB/sec", "    recv_bw  =   105 MB/sec"]}
+fatal: [172.19.222.92]: FAILED! => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5002", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:01:00.305774", "end": "2018-03-21 00:21:36.063128", "msg": "
+non-zero return code", "rc": 1, "start": "2018-03-21 00:20:35.757354", "stderr": "server: failed to receive synchronization before test: timed out", "stderr_lines": ["server: failed to receive synchronization before test: timed out"], "st
+dout": "tcp_lat:\n    latency  =  147 us\ntcp_bw:\n    bw  =  18.3 MB/sec\nudp_lat:\n    latency  =  138 us\nudp_bw:", "stdout_lines": ["tcp_lat:", "    latency  =  147 us", "tcp_bw:", "    bw  =  18.3 MB/sec", "udp_lat:", "    latency  =
+  138 us", "udp_bw:"]}
+...ignoring
+changed: [172.19.222.68] => {"changed": true, "cmd": ["qperf", "-t", "10", "-lp", "5005", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:00:40.244372", "end": "2018-03-21 00:01:37.633550", "rc": 0, "start
+": "2018-03-21 00:00:57.389178", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  5.05 ms\ntcp_bw:\n    bw  =  7.93 MB/sec\nudp_lat:\n    latency  =  116 us\nudp_bw:\n    send_bw  =  1.77 GB/sec\n    recv_bw  =   111
+ MB/sec", "stdout_lines": ["tcp_lat:", "    latency  =  5.05 ms", "tcp_bw:", "    bw  =  7.93 MB/sec", "udp_lat:", "    latency  =  116 us", "udp_bw:", "    send_bw  =  1.77 GB/sec", "    recv_bw  =   111 MB/sec"]}

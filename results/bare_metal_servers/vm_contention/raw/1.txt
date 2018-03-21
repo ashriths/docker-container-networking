@@ -1,0 +1,3 @@
+changed: [172.19.222.73] => {"changed": true, "cmd": ["qperf", "-t", "30", "-lp", "5000", "c10-17.sysnet.ucsd.edu", "tcp_lat", "tcp_bw", "udp_lat", "udp_bw"], "delta": "0:02:10.037834", "end": "2018-03-21 00:19:27.773409", "rc": 0, "start
+": "2018-03-21 00:17:17.735575", "stderr": "", "stderr_lines": [], "stdout": "tcp_lat:\n    latency  =  129 us\ntcp_bw:\n    bw  =  108 MB/sec\nudp_lat:\n    latency  =  120 us\nudp_bw:\n    send_bw  =  1.78 GB/sec\n    recv_bw  =   103 M
+B/sec", "stdout_lines": ["tcp_lat:", "    latency  =  129 us", "tcp_bw:", "    bw  =  108 MB/sec", "udp_lat:", "    latency  =  120 us", "udp_bw:", "    send_bw  =  1.78 GB/sec", "    recv_bw  =   103 MB/sec"]}
