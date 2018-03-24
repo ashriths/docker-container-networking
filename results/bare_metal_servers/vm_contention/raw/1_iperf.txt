@@ -1,0 +1,20 @@
+Connecting to host c10-17.sysnet.ucsd.edu, port 9000
+[  4] local 172.19.222.73 port 47217 connected to 169.228.66.47 port 9000
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   100 MBytes   841 Mbits/sec  72565  
+[  4]   1.00-2.00   sec   101 MBytes   846 Mbits/sec  73024  
+[  4]   2.00-3.00   sec   100 MBytes   841 Mbits/sec  72634  
+[  4]   3.00-4.00   sec   101 MBytes   848 Mbits/sec  73181  
+[  4]   4.00-5.00   sec   101 MBytes   843 Mbits/sec  72809  
+[  4]   5.00-6.00   sec  99.9 MBytes   838 Mbits/sec  72316  
+[  4]   6.00-7.00   sec   101 MBytes   844 Mbits/sec  72851  
+[  4]   7.00-8.00   sec   100 MBytes   841 Mbits/sec  72595  
+[  4]   8.00-9.00   sec   101 MBytes   845 Mbits/sec  72918  
+[  4]   9.00-10.00  sec  94.9 MBytes   796 Mbits/sec  68715  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] In[vms]
+terval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-10.00  sec   999 MBytes   838 Mbits/sec  0.012 ms  646/723605 (0.089%)  
+[  4] Sent 723605 datagrams
+
+iperf Done

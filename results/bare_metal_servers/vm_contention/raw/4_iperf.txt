@@ -1,0 +1,156 @@
+Connecting to host c10-17.sysnet.ucsd.edu, port 9000
+[  4] local 172.19.222.73 port 40745 connected to 169.228.66.47 port 9000
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  51.9 MBytes   435 Mbits/sec  37552  
+[  4]   1.00-2.00   sec  51.9 MBytes   435 Mbits/sec  37556  
+[  4]   2.00-3.00   sec  51.9 MBytes   435 Mbits/sec  37556  
+[  4]   3.00-4.00   sec  51.9 MBytes   435 Mbits/sec  37573  
+[  4]   4.00-5.00   sec  52.4 MBytes   440 Mbits/sec  37951  
+[  4]   5.00-6.00   sec  52.4 MBytes   440 Mbits/sec  37945  
+[  4]   6.00-7.00   sec  52.4 MBytes   439 Mbits/sec  37938  
+[  4]   7.00-8.00   sec  96.4 MBytes   809 Mbits/sec  69795  
+[  4]   8.00-9.00   sec  52.7 MBytes   442 Mbits/sec  38136  
+[  4]   9.00-10.00  sec  52.6 MBytes   442 Mbits/sec  38116  
+[  4]  10.00-11.00  sec  52.7 MBytes   442 Mbits/sec  38155  
+[  4]  11.00-12.00  sec  52.7 MBytes   442 Mbits/sec  38138  
+[  4]  12.00-13.00  sec  52.6 MBytes   441 Mbits/sec  38086  
+[  4]  13.00-14.00  sec  52.2 MBytes   438 Mbits/sec  37781  
+[  4]  14.00-15.00  sec  52.6 MBytes   441 Mbits/sec  38090  
+[  4]  15.00-16.00  sec  52.6 MBytes   442 Mbits/sec  38126  
+[  4]  16.00-17.00  sec  52.7 MBytes   442 Mbits/sec  38181  
+[  4]  17.00-18.00  sec  77.2 MBytes   648 Mbits/sec  55904  
+[  4]  18.00-19.00  sec  52.6 MBytes   441 Mbits/sec  38081  
+[  4]  19.00-20.00  sec  52.6 MBytes   441 Mbits/sec  38089  
+[  4]  20.00-21.00  sec  52.6 MBytes   442 Mbits/sec  38113  
+[  4]  21.00-22.00  sec  52.6 MBytes   441 Mbits/sec  38061  
+[  4]  22.00-23.00  sec  52.5 MBytes   441 Mbits/sec  38044  
+[  4]  23.00-24.00  sec  52.5 MBytes   441 Mbits/sec  38047  
+[  4]  24.00-25.00  sec  52.7 MBytes   442 Mbits/sec  38145  
+[  4]  25.00-26.00  sec  52.6 MBytes   441 Mbits/sec  38062  
+[  4]  26.00-27.00  sec  52.6 MBytes   441 Mbits/sec  38079  
+[  4]  27.00-28.00  sec  52.4 MBytes   440 Mbits/sec  37947  
+[  4]  28.00-29.00  sec  52.3 MBytes   439 Mbits/sec  37903  
+[  4]  29.00-30.00  sec  54.5 MBytes   457 Mbits/sec  39468  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-30.00  sec  1.61 GBytes   460 Mbits/sec  0.040 ms  637275/1190618 (54%)  
+[  4] Sent 1190618 datagrams
+
+iperf Done
+Connecting to host c10-17.sysnet.ucsd.edu, port 9001
+[  4] local 172.19.222.20 port 39816 connected to 169.228.66.47 port 9001
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  56.6 MBytes   475 Mbits/sec  41000  
+[  4]   1.00-2.00   sec  55.4 MBytes   465 Mbits/sec  40121  
+[  4]   2.00-3.00   sec  55.4 MBytes   465 Mbits/sec  40134  
+[  4]   3.00-4.00   sec  55.5 MBytes   465 Mbits/sec  40176  
+[  4]   4.00-5.00   sec  55.5 MBytes   466 Mbits/sec  40186  
+[  4]   5.00-6.00   sec  55.4 MBytes   465 Mbits/sec  40137  
+[  4]   6.00-7.00   sec  55.5 MBytes   465 Mbits/sec  40164  
+[  4]   7.00-8.00   sec  45.2 MBytes   379 Mbits/sec  32717  
+[  4]   8.00-9.00   sec  54.9 MBytes   460 Mbits/sec  39746  
+[  4]   9.00-10.00  sec  55.1 MBytes   462 Mbits/sec  39920  
+[  4]  10.00-11.00  sec  55.3 MBytes   463 Mbits/sec  40011  
+[  4]  11.00-12.00  sec  55.1 MBytes   462 Mbits/sec  39904  
+[  4]  12.00-13.00  sec  54.9 MBytes   460 Mbits/sec  39728  
+[  4]  13.00-14.00  sec  54.1 MBytes   454 Mbits/sec  39211  
+[  4]  14.00-15.00  sec  55.1 MBytes   462 Mbits/sec  39912  
+[  4]  15.00-16.00  sec  55.1 MBytes   462 Mbits/sec  39919  
+[  4]  16.00-17.00  sec  55.2 MBytes   463 Mbits/sec  40001  
+[  4]  17.00-18.00  sec  55.1 MBytes   462 Mbits/sec  39899  
+[  4]  18.00-19.00  sec  55.1 MBytes   462 Mbits/sec  39901  
+[  4]  19.00-20.00  sec  55.1 MBytes   463 Mbits/sec  39935  
+[  4]  20.00-21.00  sec  55.1 MBytes   462 Mbits/sec  39911  
+[  4]  21.00-22.00  sec  55.2 MBytes   463 Mbits/sec  39973  
+[  4]  22.00-23.00  sec  55.1 MBytes   462 Mbits/sec  39873  
+[  4]  23.00-24.00  sec  55.2 MBytes   463 Mbits/sec  39973  
+[  4]  24.00-25.00  sec  55.5 MBytes   465 Mbits/sec  40167  
+[  4]  25.00-26.00  sec  55.1 MBytes   462 Mbits/sec  39896  
+[  4]  26.00-27.00  sec  55.0 MBytes   461 Mbits/sec  39820  
+[  4]  27.00-28.00  sec  55.0 MBytes   461 Mbits/sec  39815  
+[  4]  28.00-29.00  sec  55.1 MBytes   462 Mbits/sec  39877  
+[  4]  29.00-30.00  sec  55.1 MBytes   462 Mbits/sec  39922  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-30.00  sec  1.61 GBytes   460 Mbits/sec  0.041 ms  630987/1191949 (53%)  
+[  4] Sent 1191949 datagrams
+
+iperf Done
+Connecting to host c10-17.sysnet.ucsd.edu, port 9002
+[  4] local 172.19.222.92 port 39436 connected to 169.228.66.47 port 9002
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  53.1 MBytes   445 Mbits/sec  38437  
+[  4]   1.00-2.00   sec  51.6 MBytes   433 Mbits/sec  37370  
+[  4]   2.00-3.00   sec  54.9 MBytes   460 Mbits/sec  39720  
+[  4]   3.00-4.00   sec  54.8 MBytes   460 Mbits/sec  39699  
+[  4]   4.00-5.00   sec  54.9 MBytes   460 Mbits/sec  39736  
+[  4]   5.00-6.00   sec  54.8 MBytes   460 Mbits/sec  39708  
+[  4]   6.00-7.00   sec  54.8 MBytes   460 Mbits/sec  39681  
+[  4]   7.00-8.00   sec  51.5 MBytes   432 Mbits/sec  37312  
+[  4]   8.00-9.00   sec  54.9 MBytes   460 Mbits/sec  39733  
+[  4]   9.00-10.00  sec  48.2 MBytes   404 Mbits/sec  34913  
+[  4]  10.00-11.00  sec  55.6 MBytes   466 Mbits/sec  40253  
+[  4]  11.00-12.00  sec  55.9 MBytes   469 Mbits/sec  40463  
+[  4]  12.00-13.00  sec  52.4 MBytes   440 Mbits/sec  37956  
+[  4]  13.00-14.00  sec  55.9 MBytes   469 Mbits/sec  40452  
+[  4]  14.00-15.00  sec  59.8 MBytes   502 Mbits/sec  43314  
+[  4]  15.00-16.00  sec  72.2 MBytes   606 Mbits/sec  52305  
+[  4]  16.00-17.00  sec  55.9 MBytes   469 Mbits/sec  40456  
+[  4]  17.00-18.00  sec  55.8 MBytes   468 Mbits/sec  40424  
+[  4]  18.00-19.00  sec  55.8 MBytes   468 Mbits/sec  40424  
+[  4]  19.00-20.00  sec  84.0 MBytes   704 Mbits/sec  60796  
+[  4]  20.00-21.00  sec  71.4 MBytes   599 Mbits/sec  51669  
+[  4]  21.00-22.00  sec  72.7 MBytes   610 Mbits/sec  52625  
+[  4]  22.00-23.00  sec  51.4 MBytes   431 Mbits/sec  37203  
+[  4]  23.00-24.00  sec  55.8 MBytes   468 Mbits/sec  40434  
+[  4]  24.00-25.00  sec  55.8 MBytes   468 Mbits/sec  40435  
+[  4]  25.00-26.00  sec  55.8 MBytes   468 Mbits/sec  40423  
+[  4]  26.00-27.00  sec  82.4 MBytes   691 Mbits/sec  59645  
+[  4]  27.00-28.00  sec  77.6 MBytes   651 Mbits/sec  56190  
+[  4]  28.00-29.00  sec   103 MBytes   861 Mbits/sec  74305  
+[  4]  29.00-30.00  sec   105 MBytes   877 Mbits/sec  75736  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-30.00  sec  1.82 GBytes   522 Mbits/sec  0.011 ms  695387/1351817 (51%)  
+[  4] Sent 1351817 datagrams
+
+iperf Done
+Connecting to host c10-17.sysnet.ucsd.edu, port 9003
+[  4] local 172.19.222.64 port 52199 connected to 169.228.66.47 port 9003
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  63.8 MBytes   535 Mbits/sec  46218  
+[  4]   1.00-2.00   sec  71.6 MBytes   601 Mbits/sec  51881  
+[  4]   2.00-3.00   sec  54.5 MBytes   457 Mbits/sec  39491  
+[  4]   3.00-4.00   sec  54.5 MBytes   457 Mbits/sec  39438  
+[  4]   4.00-5.00   sec  54.4 MBytes   457 Mbits/sec  39425  
+[  4]   5.00-6.00   sec  54.5 MBytes   457 Mbits/sec  39486  
+[  4]   6.00-7.00   sec  54.4 MBytes   456 Mbits/sec  39402  
+[  4]   7.00-8.00   sec  72.7 MBytes   610 Mbits/sec  52646  
+[  4]   8.00-9.00   sec  54.6 MBytes   458 Mbits/sec  39515  
+[  4]   9.00-10.00  sec  85.7 MBytes   719 Mbits/sec  62056  
+[  4]  10.00-11.00  sec  64.6 MBytes   542 Mbits/sec  46800  
+[  4]  11.00-12.00  sec  53.7 MBytes   450 Mbits/sec  38868  
+[  4]  12.00-13.00  sec  61.3 MBytes   514 Mbits/sec  44399  
+[  4]  13.00-14.00  sec  53.7 MBytes   450 Mbits/sec  38876  
+[  4]  14.00-15.00  sec  71.1 MBytes   596 Mbits/sec  51456  
+[  4]  15.00-16.00  sec  57.5 MBytes   482 Mbits/sec  41639  
+[  4]  16.00-17.00  sec  48.4 MBytes   406 Mbits/sec  35069  
+[  4]  17.00-18.00  sec  53.9 MBytes   452 Mbits/sec  39043  
+[  4]  18.00-19.00  sec  53.9 MBytes   452 Mbits/sec  39044  
+[  4]  19.00-20.00  sec  49.0 MBytes   411 Mbits/sec  35449  
+[  4]  20.00-21.00  sec  49.7 MBytes   417 Mbits/sec  36001  
+[  4]  21.00-22.00  sec  51.5 MBytes   432 Mbits/sec  37259  
+[  4]  22.00-23.00  sec  73.2 MBytes   614 Mbits/sec  53043  
+[  4]  23.00-24.00  sec  54.0 MBytes   453 Mbits/sec  39093  
+[  4]  24.00-25.00  sec  53.9 MBytes   452 Mbits/sec  39042  
+[  4]  25.00-26.00  sec  53.9 MBytes   453 Mbits/sec  39068  
+[  4]  26.00-27.00  sec  49.0 MBytes   411 Mbits/sec  35461  
+[  4]  27.00-28.00  sec  60.4 MBytes   507 Mbits/sec  43747  
+[  4]  28.00-29.00  sec  97.5 MBytes   817 Mbits/sec  70570  
+[  4]  29.00-30.00  sec  95.5 MBytes   801 Mbits/sec  69185  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-30.00  sec  1.78 GBytes   511 Mbits/sec  0.024 ms  694767/1322670 (53%)  
+[  4] Sent 1322670 datagrams
+
+iperf Done

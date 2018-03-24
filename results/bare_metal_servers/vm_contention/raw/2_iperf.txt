@@ -1,0 +1,39 @@
+Connecting to host c10-17.sysnet.ucsd.edu, port 9000
+[  4] local 172.19.222.73 port 59663 connected to 169.228.66.47 port 9000
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec  99.0 MBytes   830 Mbits/sec  71674  
+[  4]   1.00-2.00   sec  98.6 MBytes   827 Mbits/sec  71398  
+[  4]   2.00-3.00   sec  98.7 MBytes   828 Mbits/sec  71458  
+[  4]   3.00-4.00   sec  98.5 MBytes   826 Mbits/sec  71302  
+[  4]   4.00-5.00   sec  98.8 MBytes   829 Mbits/sec  71546  
+[  4]   5.00-6.00   sec  98.7 MBytes   828 Mbits/sec  71463  
+[  4]   6.00-7.00   sec  98.4 MBytes   825 Mbits/sec  71225  
+[  4]   7.00-8.00   sec  96.2 MBytes   807 Mbits/sec  69630  
+[  4]   8.00-9.00   sec  86.7 MBytes   727 Mbits/sec  62768  
+[  4]   9.00-10.00  sec  87.0 MBytes   730 Mbits/sec  63036  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-10.00  sec   960 MBytes   806 Mbits/sec  0.029 ms  264292/606086 (44%)  
+[  4] Sent 606086 datagrams
+
+iperf Done
+
+Connecting to host c10-17.sysnet.ucsd.edu, port 9001
+[  4] local 172.19.222.20 port 56133 connected to 169.228.66.47 port 9001
+[ ID] Interval           Transfer     Bandwidth       Total Datagrams
+[  4]   0.00-1.00   sec   108 MBytes   904 Mbits/sec  78076  
+[  4]   1.00-2.00   sec   107 MBytes   901 Mbits/sec  77808  
+[  4]   2.00-3.00   sec   108 MBytes   905 Mbits/sec  78114  
+[  4]   3.00-4.00   sec   106 MBytes   889 Mbits/sec  76764  
+[  4]   4.00-5.00   sec   107 MBytes   902 Mbits/sec  77830  
+[  4]   5.00-6.00   sec   107 MBytes   900 Mbits/sec  77734  
+[  4]   6.00-7.00   sec   108 MBytes   906 Mbits/sec  78186  
+[  4]   7.00-8.00   sec   107 MBytes   900 Mbits/sec  77652  
+[  4]   8.00-9.00   sec   107 MBytes   899 Mbits/sec  77629  
+[  4]   9.00-10.00  sec   106 MBytes   891 Mbits/sec  76921  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-10.00  sec  1.05 GBytes   900 Mbits/sec  0.012 ms  458057/776711 (59%)  
+[  4] Sent 776711 datagrams
+
+iperf Done
